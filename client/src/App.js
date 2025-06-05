@@ -32,7 +32,6 @@ import { COOKIE_TIMER, CookiePolicyName } from './utils/Constants';
 // Pages
 // Public
 import HomePage from './pages/home/HomePage';
-import HomePageSideNav from './pages/home/HomePageSideNav';
 import ContactPage from './pages/contact/ContactPage';
 // Blog
 import BlogPage from './pages/blog/BlogPage';
@@ -47,11 +46,6 @@ import DenyBookingAutoPage from './pages/booking/admin/DenyBookingAutoPage';
 // Newsletter
 import NewsletterSignUpPage from './pages/newsletter/NewsletterSignUpPage';
 import NewsletterAdminPage from './pages/newsletter/admin/NewsletterAdminPage';
-// User pages
-import RegisterPage from './users/register/RegisterPage';
-import LoginPage from './users/login/LoginPage';
-import ForgettenPasswordPage from './users/password/ForgettenPasswordPage';
-import VerifyEmailPage from './users/verify/VerifyEmailPage';
 // Admin
 import AdminPage from './pages/admin/AdminPage';
 import ContactFormAdminPage from './pages/contact/admin/ContactFormAdminPage';
@@ -167,15 +161,6 @@ function App() {
                 <CallbackFormAdminPage />
               </LoginAuth>
             }
-          />
-
-          {/* User routes */}
-          <Route path={LOGIN_PAGE_URL} element={<LoginPage />} />
-          <Route path={SIGN_UP_PAGE_URL} element={<RegisterPage />} />
-          <Route path={VERIFY_EMAIL_PAGE_URL} element={<VerifyEmailPage />} />
-          <Route
-            path={RESET_PASS_PAGE_URL}
-            element={<ForgettenPasswordPage />}
           />
 
           {/* Terms and conditions */}
