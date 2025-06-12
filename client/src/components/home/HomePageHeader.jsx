@@ -5,7 +5,7 @@ import { backgroundItemsArray } from '../../utils/data/BackgroundData';
 import CarouselItem from '../carousel/CarouselItem';
 
 function HomePageHeader() {
-  const timeAutoNext = 5000;
+  const timeAutoNext = 6000;
 
   const containerRef = useRef(null);
   const timeRunningRef = useRef(null);
@@ -39,7 +39,7 @@ function HomePageHeader() {
     if (timeRunningEl) {
       timeRunningEl.style.animation = 'none';
       void timeRunningEl.offsetWidth; // trigger reflow
-      timeRunningEl.style.animation = 'runningTime 5s linear 1 forwards';
+      timeRunningEl.style.animation = 'runningTime 6s linear 1 forwards';
     }
   };
 
@@ -54,7 +54,7 @@ function HomePageHeader() {
         ref={timeRunningRef}
         className='timeRunning absolute top-0 left-0 z-30 h-1 lg:h-2'
         style={{
-          animation: 'runningTime 5s linear 1 forwards',
+          animation: 'runningTime 6s linear 1 forwards',
           backgroundColor: backgroundItemsArray[currentIndex].timebarColour,
         }}
       ></div>
