@@ -13,7 +13,6 @@ import {
   MAINTENANCE_PAGE_URL,
   POLICIES_PAGE_URL,
   ADMIN_CONTACT_FORM_PAGE_URL,
-  REVIEWS_PAGE_URL,
   ADMIN_CALLBACK_FORM_PAGE_URL,
   NEWSLETTER_PAGE_URL,
   NEWSLETTER_ADMIN_PAGE_URL,
@@ -36,7 +35,6 @@ import TermAndPoliciesPage from './pages/policies/TermAndPoliciesPage';
 import MaintenancePage from './pages/maintenance/MaintenancePage';
 // Error
 import Error404 from './pages/error/Error404';
-import ReviewsPage from './pages/reviews/ReviewsPage';
 
 // Components
 const CookieConsentModal = lazy(() =>
@@ -84,8 +82,6 @@ function App() {
         <Routes>
           {/* Main page routes */}
           <Route path={HOME_PAGE_URL} index element={<HomePage />} />
-          <Route path={REVIEWS_PAGE_URL} element={<ReviewsPage />} />
-
 
           {/* Newsletter routes */}
           <Route
