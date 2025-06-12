@@ -1,29 +1,75 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 // Components
 import Navbar from '../../components/nav/Navbar';
 import { backgroundItemsArray } from '../../utils/data/BackgroundData';
 import CarouselItem from '../carousel/CarouselItem';
 
 function HomePageHeader() {
-  let timeAutoNext = 7000;
+  const timeAutoNext = 5000;
+
+  const containerRef = useRef(null);
+  const timeRunningRef = useRef(null);
+
+  // Track current index of visible carousel item
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  // Rotate carousel & reset animation & update color every 5 seconds
+  useEffect(() => {
+    const interval = setInterval(() => {
+      rotateCarousel();
+    }, timeAutoNext);
+
+    return () => clearInterval(interval);
+  }, [currentIndex]);
+
+  // Function to rotate carousel & reset animation
+  const rotateCarousel = () => {
+    const container = containerRef.current;
+    if (container && container.children.length > 0) {
+      const firstChild = container.children[0];
+      container.removeChild(firstChild);
+      container.appendChild(firstChild);
+      
+      // Update index (cycle through array)
+      setCurrentIndex((prev) => (prev + 1) % backgroundItemsArray.length);
+    }
+
+    // Reset animation
+    const timeRunningEl = timeRunningRef.current;
+    if (timeRunningEl) {
+      timeRunningEl.style.animation = 'none';
+      void timeRunningEl.offsetWidth; // trigger reflow
+      timeRunningEl.style.animation = 'runningTime 5s linear 1 forwards';
+    }
+  };
+
+  // Handle manual NEXT button
+  const handleNextClick = () => {
+    rotateCarousel();
+  };
 
   return (
-    <section className='grid h-screen min-h-screen w-full'>
-      {/* Time bar */}
-      <div className='timeRunning absolute top-0 left-0 bg-pink-600 z-30 h-1 lg:h-2'></div>
-
-      {/* Main background */}
+    <section className='grid h-screen relative min-h-screen w-full'>
       <div
-        className='grid relative h-full w-full bg-cover bg-no-repeat'
-      >
-        {/* Nav */}
+        ref={timeRunningRef}
+        className='timeRunning absolute top-0 left-0 z-30 h-1 lg:h-2'
+        style={{
+          animation: 'runningTime 5s linear 1 forwards',
+          backgroundColor: backgroundItemsArray[currentIndex].titleColor,
+        }}
+      ></div>
+
+      <div className='grid relative h-full w-full bg-cover bg-no-repeat'>
+        <div className='absolute top-10 z-50'>
+          <button onClick={handleNextClick}>NEXT</button>
+        </div>
+
         <Navbar />
 
-        {/* Header info */}
-        <header className='grid h-full'>
-          {backgroundItemsArray.map((item, index) => {
-            return <CarouselItem key={index} item={item} />;
-          })}
+        <header ref={containerRef} className='grid h-full'>
+          {backgroundItemsArray.map((item, idx) => (
+            <CarouselItem key={idx} item={item} />
+          ))}
         </header>
       </div>
     </section>
