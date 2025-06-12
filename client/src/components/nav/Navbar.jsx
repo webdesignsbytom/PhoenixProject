@@ -37,19 +37,9 @@ function Navbar() {
     <nav
       role='navigation'
       aria-label='Main Navigation'
-      className='relative bg-colour2 shadow-md h-fit'
+      className='relative h-fit z-20 pt-1 lg:pt-2'
     >
-      <section className='grid grid-cols-reg px-4 py-4'>
-        <section>
-          <NavLink to={HOME_PAGE_URL}>
-            <img
-              src={MainLogoImage}
-              alt={`${CompanyName} business logo - White Logo`}
-              className='min-w-10 w-10 h-10 cursor-pointer active:scale-95'
-            />
-          </NavLink>
-        </section>
-
+      <section className='grid px-4 py-4'>
         <section className='grid justify-end'>
           {/* Mobile screen */}
           <button
