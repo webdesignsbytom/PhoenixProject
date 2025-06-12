@@ -26,6 +26,9 @@ export const backgroundItemsArray = [
     buttonBgColor: '#FFD700',
     buttonBorderColor: '#FFC0CB',
     buttonTextColor: '#000000',
+    navTextColour: '#FF69B4',
+    textShadowColour: '#8B008B',
+    paraTextColour: '#000000',
   },
   {
     image: MultiColourFeather,
@@ -39,6 +42,9 @@ export const backgroundItemsArray = [
     buttonBgColor: '#FF69B4',
     buttonBorderColor: '#FF1493',
     buttonTextColor: '#FFFFFF',
+    navTextColour: '#FF1493',
+    textShadowColour: '#C71585',
+    paraTextColour: '#000000',
   },
   {
     image: GreenPeacock2,
@@ -52,6 +58,9 @@ export const backgroundItemsArray = [
     buttonBgColor: '#8A2BE2',
     buttonBorderColor: '#4B0082',
     buttonTextColor: '#FFFFFF',
+    navTextColour: '#8A2BE2',
+    textShadowColour: '#000000',
+    paraTextColour: '#000000',
   },
   {
     image: BronzeHorns,
@@ -65,6 +74,9 @@ export const backgroundItemsArray = [
     buttonBgColor: '#CD5C5C',
     buttonBorderColor: '#8B0000',
     buttonTextColor: '#FFFFFF',
+    navTextColour: '#B22222',
+    textShadowColour: '#5C0000',
+    paraTextColour: '#000000',
   },
   {
     image: WhiteGold1,
@@ -78,6 +90,9 @@ export const backgroundItemsArray = [
     buttonBgColor: '#DAA520',
     buttonBorderColor: '#B8860B',
     buttonTextColor: '#000000',
+    navTextColour: '#800080',
+    textShadowColour: '#4B0082',
+    paraTextColour: '#000000',
   },
   {
     image: GoldAndPurple,
@@ -91,6 +106,9 @@ export const backgroundItemsArray = [
     buttonBgColor: '#9370DB',
     buttonBorderColor: '#663399',
     buttonTextColor: '#FFFFFF',
+    navTextColour: '#663399',
+    textShadowColour: '#000000',
+    paraTextColour: '#000000',
   },
   {
     image: PinkBlueFlipped,
@@ -104,6 +122,9 @@ export const backgroundItemsArray = [
     buttonBgColor: '#FF69B4',
     buttonBorderColor: '#FF1493',
     buttonTextColor: '#FFFFFF',
+    navTextColour: '#FF4500',
+    textShadowColour: '#B22222',
+    paraTextColour: '#000000',
   },
   {
     image: GreenPeacock1,
@@ -117,6 +138,9 @@ export const backgroundItemsArray = [
     buttonBgColor: '#3CB371',
     buttonBorderColor: '#2E8B57',
     buttonTextColor: '#FFFFFF',
+    navTextColour: '#2F4F4F',
+    textShadowColour: '#006400',
+    paraTextColour: '#000000',
   },
   {
     image: WhiteGold2,
@@ -130,5 +154,8 @@ export const backgroundItemsArray = [
     buttonBgColor: '#ADD8E6',
     buttonBorderColor: '#B0C4DE',
     buttonTextColor: '#000000',
+    navTextColour: '#4682B4',
+    textShadowColour: '#5F9EA0',
+    paraTextColour: '#000000',
   },
 ];

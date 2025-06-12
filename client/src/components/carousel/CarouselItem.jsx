@@ -20,7 +20,7 @@ function CarouselItem({ item }) {
           backgroundSize: 'contain',
         }}
       >
-        <article className='carousel_item_content absolute top-1/2 left-4 lg:left-52 transform -translate-y-1/2 w-[400px] text-left text-white hidden md:block px-4'>
+        <article className='carousel_item_content absolute top-1/2 left-4 lg:left-36 transform -translate-y-1/2 w-[400px] text-left text-white hidden md:block px-4'>
           <div
             className='text-3xl md:text-5xl lg:text-8xl uppercase font-bold leading-none opacity-0 animate-[animate_1s_ease-in-out_2.3s_forwards] lg:animate-[animate_1s_ease-in-out_1s_forwards]'
             style={{ color: item.titleColor || '#14ff72cb' }}
@@ -32,13 +32,20 @@ function CarouselItem({ item }) {
             className='text-3xl md:text-5xl lg:text-8xl uppercase font-bold leading-none text-shadow-md opacity-0 animate-[animate_1s_ease-in-out_2.6s_forwards] lg:animate-[animate_1s_ease-in-out_1.1s_forwards]'
             style={{
               color: item.nameColor || '#fff',
-              textShadow: '3px 4px 4px rgba(255,255,255,0.8)',
+              textShadow:
+                item.textShadow ||
+                `3px 4px 4px ${
+                  item.textShadowColour || 'rgba(255,255,255,0.8)'
+                }`,
             }}
           >
             {item.name}
           </div>
 
-          <div className='mt-[10px] mb-[20px] ml-[5px] text-[18px] opacity-0 animate-[animate_1s_ease-in-out_2.9s_forwards] lg:animate-[animate_1s_ease-in-out_1.2s_forwards]'>
+          <div
+            className='mt-[10px] mb-[20px] ml-[5px] text-[18px] opacity-0 animate-[animate_1s_ease-in-out_2.9s_forwards] lg:animate-[animate_1s_ease-in-out_1.2s_forwards]'
+            style={{ color: item.paraTextColour || '#14ff72cb' }}
+          >
             {item.description}
           </div>
 

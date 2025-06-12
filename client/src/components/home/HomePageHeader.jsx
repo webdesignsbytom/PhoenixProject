@@ -61,7 +61,7 @@ function HomePageHeader() {
 
       <div className='grid relative h-full w-full bg-cover bg-no-repeat'>
         {/* Nav */}
-        <Navbar />
+        <Navbar textColour={backgroundItemsArray[currentIndex].navTextColour} />
 
         <header ref={containerRef} className='grid h-full'>
           {backgroundItemsArray.map((item, idx) => (
