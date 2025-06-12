@@ -10,19 +10,9 @@ import {
   ADMIN_PAGE_URL,
   CONTACT_PAGE_URL,
   HOME_PAGE_URL,
-  LOGIN_PAGE_URL,
   MAINTENANCE_PAGE_URL,
   POLICIES_PAGE_URL,
-  RESET_PASS_PAGE_URL,
-  BLOG_PAGE_URL,
-  SIGN_UP_PAGE_URL,
-  BLOG_POST_PAGE_URL,
-  CREATE_BLOG_POST_PAGE_URL,
-  EDIT_BLOG_POST_PAGE_URL,
-  BOOKING_PAGE_URL,
-  BOOKING_ADMIN_PAGE_URL,
   ADMIN_CONTACT_FORM_PAGE_URL,
-  VERIFY_EMAIL_PAGE_URL,
   REVIEWS_PAGE_URL,
   ADMIN_CALLBACK_FORM_PAGE_URL,
   NEWSLETTER_PAGE_URL,
@@ -33,16 +23,6 @@ import { COOKIE_TIMER, CookiePolicyName } from './utils/Constants';
 // Public
 import HomePage from './pages/home/HomePage';
 import ContactPage from './pages/contact/ContactPage';
-// Blog
-import BlogPage from './pages/blog/BlogPage';
-import BlogPostPage from './pages/blog/BlogPostPage';
-import BlogPostCreationPage from './pages/blog/BlogPostCreationPage';
-import BlogPostEditPage from './pages/blog/BlogPostEditPage';
-// Booking
-import BookingPage from './pages/booking/BookingPage';
-import BookingAdminPage from './pages/booking/admin/BookingAdminPage';
-import ConfirmBookingAutoPage from './pages/booking/admin/ConfirmBookingAutoPage';
-import DenyBookingAutoPage from './pages/booking/admin/DenyBookingAutoPage';
 // Newsletter
 import NewsletterSignUpPage from './pages/newsletter/NewsletterSignUpPage';
 import NewsletterAdminPage from './pages/newsletter/admin/NewsletterAdminPage';
@@ -106,20 +86,6 @@ function App() {
           <Route path={HOME_PAGE_URL} index element={<HomePage />} />
           <Route path={REVIEWS_PAGE_URL} element={<ReviewsPage />} />
 
-          {/* Blog routes */}
-          <Route path={BLOG_PAGE_URL} element={<BlogPage />} />
-          <Route
-            path={`${BLOG_POST_PAGE_URL}/:title`}
-            element={<BlogPostPage />}
-          />
-          <Route
-            path={CREATE_BLOG_POST_PAGE_URL}
-            element={<BlogPostCreationPage />}
-          />
-          <Route
-            path={EDIT_BLOG_POST_PAGE_URL}
-            element={<BlogPostEditPage />}
-          />
 
           {/* Newsletter routes */}
           <Route
@@ -129,18 +95,6 @@ function App() {
           <Route
             path={NEWSLETTER_ADMIN_PAGE_URL}
             element={<NewsletterAdminPage />}
-          />
-
-          {/* Booking routes */}
-          <Route path={BOOKING_PAGE_URL} element={<BookingPage />} />
-          <Route path={BOOKING_ADMIN_PAGE_URL} element={<BookingAdminPage />} />
-          <Route
-            path={`/bookings/confirm-booking/:uniqueString/:bookingId`}
-            element={<ConfirmBookingAutoPage />}
-          />
-          <Route
-            path={`/bookings/deny-booking/:uniqueString/:bookingId`}
-            element={<DenyBookingAutoPage />}
           />
 
           {/* Contact routes */}

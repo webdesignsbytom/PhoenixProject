@@ -1,16 +1,4 @@
 // Images
-import butterfly1 from '../../assets/images/backgrounds/butterfly1.jpeg';
-import butterfly2 from '../../assets/images/backgrounds/butterfly2.jpg';
-import crow from '../../assets/images/backgrounds/crow.jpg';
-import eagel1 from '../../assets/images/backgrounds/eagel1.jpg';
-import eagel3 from '../../assets/images/backgrounds/eagel3.jpg';
-import heron from '../../assets/images/backgrounds/heron.jpeg';
-import kingfirser2 from '../../assets/images/backgrounds/kingfirser2.jpeg';
-import owl1 from '../../assets/images/backgrounds/owl1.jpg';
-import owl2 from '../../assets/images/backgrounds/owl2.jpg';
-import parrot1 from '../../assets/images/backgrounds/parrot1.jpg';
-import parrot2 from '../../assets/images/backgrounds/parrot2.jpg';
-
 import BronzeHorns from '../../assets/images/products/phoenix-headdress-product-no-background-bronze-horns-1.png';
 import GoldAndPurple from '../../assets/images/products/phoenix-headdress-product-no-background-gold-and-purple-1.png';
 import GreenPeacock1 from '../../assets/images/products/phoenix-headdress-product-no-background-green-peacock-1.png';
@@ -25,7 +13,6 @@ import WhiteGold1 from '../../assets/images/products/phoenix-headdress-product-n
 import WhiteGold2 from '../../assets/images/products/phoenix-headdress-product-no-background-white-and-gold-2.png';
 import WhiteGold3 from '../../assets/images/products/phoenix-headdress-product-no-background-white-and-gold-3.png';
 
-
 export const backgroundItemsArray = [
   {
     image: PinkBlue2,
@@ -36,6 +23,9 @@ export const backgroundItemsArray = [
     nameColor: '#FFFFFF',
     timebarColour: '#FF69B4',
     backgroundStyle: 'linear-gradient(to right, #ff9a9e, #fad0c4)',
+    buttonBgColor: '#FFD700',
+    buttonBorderColor: '#FFC0CB',
+    buttonTextColor: '#000000',
   },
   {
     image: MultiColourFeather,
@@ -46,6 +36,9 @@ export const backgroundItemsArray = [
     nameColor: '#EEE8AA',
     timebarColour: '#FF7F50',
     backgroundStyle: 'linear-gradient(to bottom, #fdfcfb, #e2d1c3)',
+    buttonBgColor: '#FF69B4',
+    buttonBorderColor: '#FF1493',
+    buttonTextColor: '#FFFFFF',
   },
   {
     image: GreenPeacock2,
@@ -56,6 +49,9 @@ export const backgroundItemsArray = [
     nameColor: '#8A2BE2',
     timebarColour: '#2E8B57',
     backgroundStyle: 'linear-gradient(to top, #434343, #000000)',
+    buttonBgColor: '#8A2BE2',
+    buttonBorderColor: '#4B0082',
+    buttonTextColor: '#FFFFFF',
   },
   {
     image: BronzeHorns,
@@ -66,6 +62,9 @@ export const backgroundItemsArray = [
     nameColor: '#F5F5F5',
     timebarColour: '#CD853F',
     backgroundStyle: 'linear-gradient(to right, #ffecd2, #fcb69f)',
+    buttonBgColor: '#CD5C5C',
+    buttonBorderColor: '#8B0000',
+    buttonTextColor: '#FFFFFF',
   },
   {
     image: WhiteGold1,
@@ -76,6 +75,9 @@ export const backgroundItemsArray = [
     nameColor: '#DAA520',
     timebarColour: '#C0C0C0',
     backgroundStyle: 'linear-gradient(135deg, #fdfbfb, #ebedee)',
+    buttonBgColor: '#DAA520',
+    buttonBorderColor: '#B8860B',
+    buttonTextColor: '#000000',
   },
   {
     image: GoldAndPurple,
@@ -86,6 +88,9 @@ export const backgroundItemsArray = [
     nameColor: '#F0FFFF',
     timebarColour: '#9370DB',
     backgroundStyle: 'linear-gradient(to left, #d3cce3, #e9e4f0)',
+    buttonBgColor: '#9370DB',
+    buttonBorderColor: '#663399',
+    buttonTextColor: '#FFFFFF',
   },
   {
     image: PinkBlueFlipped,
@@ -96,6 +101,9 @@ export const backgroundItemsArray = [
     nameColor: '#FFFF00',
     timebarColour: '#40E0D0',
     backgroundStyle: 'linear-gradient(to right, #89f7fe, #66a6ff)',
+    buttonBgColor: '#FF69B4',
+    buttonBorderColor: '#FF1493',
+    buttonTextColor: '#FFFFFF',
   },
   {
     image: GreenPeacock1,
@@ -106,6 +114,9 @@ export const backgroundItemsArray = [
     nameColor: '#D8BFD8',
     timebarColour: '#3CB371',
     backgroundStyle: 'linear-gradient(to top left, #a1ffce, #faffd1)',
+    buttonBgColor: '#3CB371',
+    buttonBorderColor: '#2E8B57',
+    buttonTextColor: '#FFFFFF',
   },
   {
     image: WhiteGold2,
@@ -116,5 +127,8 @@ export const backgroundItemsArray = [
     nameColor: '#FFFFFF',
     timebarColour: '#ADD8E6',
     backgroundStyle: 'linear-gradient(to right, #e0eafc, #cfdef3)',
+    buttonBgColor: '#ADD8E6',
+    buttonBorderColor: '#B0C4DE',
+    buttonTextColor: '#000000',
   },
 ];

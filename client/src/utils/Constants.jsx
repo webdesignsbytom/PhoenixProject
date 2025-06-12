@@ -1,5 +1,5 @@
 // Company data
-export const CompanyName = 'ByteToast Studio';
+export const CompanyName = 'Phoenix Headdress';
 export const CompanyPhoneNumber = '07846286385';
 export const CompanyWhatsappNumber = '02031234567';
 export const CompanyEmailAddress = 'hello@bytetoast-studio.com';

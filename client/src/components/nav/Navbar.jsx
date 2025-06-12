@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 // Icons
 import { IoMdMenu } from 'react-icons/io';
-// Images
-import MainLogoImage from '../../assets/images/logos/byte-toast-studio-logo-web-developer-transparent-svg.svg';
+import { FaPhoenixSquadron } from "react-icons/fa";
 // Context
 import { useUser } from '../../context/UserContext';
 // Constants
@@ -37,9 +36,15 @@ function Navbar() {
     <nav
       role='navigation'
       aria-label='Main Navigation'
-      className='relative h-fit z-20 pt-1 lg:pt-2'
+      className='relative h-fit z-20'
     >
-      <section className='grid px-4 py-4'>
+      <section className='grid grid-cols-reg px-4 py-4'>
+        <section className='pt-1'>
+          <NavLink to={HOME_PAGE_URL} className={`grid grid-flow-col gap-x-2 items-center text-colour5`}>
+            <FaPhoenixSquadron className='text-2xl' /> <span>{CompanyName}</span>
+          </NavLink>
+        </section>
+
         <section className='grid justify-end'>
           {/* Mobile screen */}
           <button
@@ -47,7 +52,7 @@ function Navbar() {
             onClick={togglePhoneNav}
             className='grid md:hidden w-fit h-fit items-center justify-center text-4xl text-white cursor-pointer'
           >
-            <IoMdMenu className='active:scale-90 duration-300' />
+            <IoMdMenu className='active:scale-90 duration-300 text-colour5' />
           </button>
 
           {/* Large screen */}

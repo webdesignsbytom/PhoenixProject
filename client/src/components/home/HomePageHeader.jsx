@@ -29,7 +29,7 @@ function HomePageHeader() {
       const firstChild = container.children[0];
       container.removeChild(firstChild);
       container.appendChild(firstChild);
-      
+
       // Update index (cycle through array)
       setCurrentIndex((prev) => (prev + 1) % backgroundItemsArray.length);
     }
@@ -60,10 +60,7 @@ function HomePageHeader() {
       ></div>
 
       <div className='grid relative h-full w-full bg-cover bg-no-repeat'>
-        <div className='absolute top-10 z-50'>
-          <button onClick={handleNextClick}>NEXT</button>
-        </div>
-
+        {/* Nav */}
         <Navbar />
 
         <header ref={containerRef} className='grid h-full'>
