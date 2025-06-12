@@ -11,94 +11,110 @@ import owl2 from '../../assets/images/backgrounds/owl2.jpg';
 import parrot1 from '../../assets/images/backgrounds/parrot1.jpg';
 import parrot2 from '../../assets/images/backgrounds/parrot2.jpg';
 
+import BronzeHorns from '../../assets/images/products/phoenix-headdress-product-no-background-bronze-horns-1.png';
+import GoldAndPurple from '../../assets/images/products/phoenix-headdress-product-no-background-gold-and-purple-1.png';
+import GreenPeacock1 from '../../assets/images/products/phoenix-headdress-product-no-background-green-peacock-1.png';
+import GreenPeacock2 from '../../assets/images/products/phoenix-headdress-product-no-background-green-peacock-2.png';
+import MultiColourFeather from '../../assets/images/products/phoenix-headdress-product-no-background-multi-colour-feather-1.png';
+import PinkBlue1 from '../../assets/images/products/phoenix-headdress-product-no-background-pink-blue-1.png';
+import PinkBlue2 from '../../assets/images/products/phoenix-headdress-product-no-background-pink-blue-2.png';
+import PinkBlue3 from '../../assets/images/products/phoenix-headdress-product-no-background-pink-blue-3.png';
+import PinkBlue4 from '../../assets/images/products/phoenix-headdress-product-no-background-pink-blue-4.png';
+import PinkBlueFlipped from '../../assets/images/products/phoenix-headdress-product-no-background-pink-blue-4-flipped.png';
+import WhiteGold1 from '../../assets/images/products/phoenix-headdress-product-no-background-white-and-gold-1.png';
+import WhiteGold2 from '../../assets/images/products/phoenix-headdress-product-no-background-white-and-gold-2.png';
+import WhiteGold3 from '../../assets/images/products/phoenix-headdress-product-no-background-white-and-gold-3.png';
+
+
 export const backgroundItemsArray = [
   {
-    image: butterfly1,
-    title: 'Celestial',
-    name: 'Luna',
+    image: PinkBlue2,
+    title: 'Aurora Bloom',
+    name: 'Skye',
     description: 'Mystical elegance meets modern goddess energy.',
-    titleColor: '#FFD700', // Gold
-    nameColor: '#FFFFFF',  // White
+    titleColor: '#FFD700',
+    nameColor: '#FFFFFF',
+    timebarColour: '#FF69B4',
+    backgroundStyle: 'linear-gradient(to right, #ff9a9e, #fad0c4)',
   },
   {
-    image: butterfly2,
-    title: 'Elysian',
+    image: MultiColourFeather,
+    title: 'Starfire',
     name: 'Nova',
     description: 'A dreamy crown born from the stars.',
-    titleColor: '#FF69B4', // Hot Pink
-    nameColor: '#EEE8AA',  // Pale Goldenrod
+    titleColor: '#FF69B4',
+    nameColor: '#EEE8AA',
+    timebarColour: '#FF7F50',
+    backgroundStyle: 'linear-gradient(to bottom, #fdfcfb, #e2d1c3)',
   },
   {
-    image: crow,
-    title: 'Obsidian',
+    image: GreenPeacock2,
+    title: 'Nightshade',
     name: 'Ravenna',
     description: 'Dark, sleek, and unapologetically bold.',
-    titleColor: '#1E1E1E', // Near black
-    nameColor: '#8A2BE2',  // Blue Violet
+    titleColor: '#1E1E1E',
+    nameColor: '#8A2BE2',
+    timebarColour: '#2E8B57',
+    backgroundStyle: 'linear-gradient(to top, #434343, #000000)',
   },
   {
-    image: eagel1,
-    title: 'Empire',
+    image: BronzeHorns,
+    title: 'Empress Flame',
     name: 'Zara',
     description: 'A statement of power and poise.',
-    titleColor: '#B22222', // Firebrick
-    nameColor: '#F5F5F5',  // White Smoke
+    titleColor: '#B22222',
+    nameColor: '#F5F5F5',
+    timebarColour: '#CD853F',
+    backgroundStyle: 'linear-gradient(to right, #ffecd2, #fcb69f)',
   },
   {
-    image: eagel3,
-    title: 'Reign',
+    image: WhiteGold1,
+    title: 'Sovereign Halo',
     name: 'Aria',
     description: 'Where royal meets fierce.',
-    titleColor: '#800080', // Purple
-    nameColor: '#DAA520',  // Goldenrod
+    titleColor: '#800080',
+    nameColor: '#DAA520',
+    timebarColour: '#C0C0C0',
+    backgroundStyle: 'linear-gradient(135deg, #fdfbfb, #ebedee)',
   },
   {
-    image: heron,
-    title: 'Serenity',
+    image: GoldAndPurple,
+    title: 'Velvet Trance',
     name: 'Kaia',
     description: 'Flowing lines and calm confidence.',
-    titleColor: '#4682B4', // Steel Blue
-    nameColor: '#F0FFFF',  // Azure
+    titleColor: '#4682B4',
+    nameColor: '#F0FFFF',
+    timebarColour: '#9370DB',
+    backgroundStyle: 'linear-gradient(to left, #d3cce3, #e9e4f0)',
   },
   {
-    image: kingfirser2,
-    title: 'Spark',
+    image: PinkBlueFlipped,
+    title: 'Sonic Petal',
     name: 'Indie',
     description: 'A flash of colour and wild spirit.',
-    titleColor: '#FF4500', // Orange Red
-    nameColor: '#FFFF00',  // Yellow
+    titleColor: '#FF4500',
+    nameColor: '#FFFF00',
+    timebarColour: '#40E0D0',
+    backgroundStyle: 'linear-gradient(to right, #89f7fe, #66a6ff)',
   },
   {
-    image: owl1,
-    title: 'Twilight',
+    image: GreenPeacock1,
+    title: 'Jade Whisper',
     name: 'Vesper',
     description: 'Soft shadows and silent strength.',
-    titleColor: '#2F4F4F', // Dark Slate Gray
-    nameColor: '#D8BFD8',  // Thistle
+    titleColor: '#2F4F4F',
+    nameColor: '#D8BFD8',
+    timebarColour: '#3CB371',
+    backgroundStyle: 'linear-gradient(to top left, #a1ffce, #faffd1)',
   },
   {
-    image: owl2,
-    title: 'Frost',
+    image: WhiteGold2,
+    title: 'Winter Crown',
     name: 'Eira',
     description: 'Icy cool with timeless grace.',
-    titleColor: '#AFEEEE', // Pale Turquoise
-    nameColor: '#FFFFFF',  // White
-  },
-  {
-    image: parrot1,
-    title: 'Carnival',
-    name: 'Sol',
-    description: 'Joyous bursts of colour and rhythm.',
-    titleColor: '#FF6347', // Tomato
-    nameColor: '#00CED1',  // Dark Turquoise
-  },
-  {
-    image: parrot2,
-    title: 'Mirage',
-    name: 'Zina',
-    description: 'Ethereal shimmer and mysterious beauty.',
-    titleColor: '#BA55D3', // Medium Orchid
-    nameColor: '#E6E6FA',  // Lavender
+    titleColor: '#AFEEEE',
+    nameColor: '#FFFFFF',
+    timebarColour: '#ADD8E6',
+    backgroundStyle: 'linear-gradient(to right, #e0eafc, #cfdef3)',
   },
 ];
-

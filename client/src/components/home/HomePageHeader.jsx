@@ -55,7 +55,7 @@ function HomePageHeader() {
         className='timeRunning absolute top-0 left-0 z-30 h-1 lg:h-2'
         style={{
           animation: 'runningTime 5s linear 1 forwards',
-          backgroundColor: backgroundItemsArray[currentIndex].titleColor,
+          backgroundColor: backgroundItemsArray[currentIndex].timebarColour,
         }}
       ></div>
 
