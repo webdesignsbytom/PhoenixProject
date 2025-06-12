@@ -1,138 +1,37 @@
 import React from 'react';
-// Constants
-import { CompanyName } from '../../utils/Constants';
-// Images
-import ArtistMainImage from '../../assets/images/people/phoenix-headdress-product-no-background-phoenix-with-white-feather-headdress.png';
-// Icons
-import { FaPhoenixSquadron } from 'react-icons/fa';
+import { useInView } from 'react-intersection-observer';
+import MainVideo from '../../assets/videos/rotate/phoenix-yellow-feather-headdress-video-no-background.gif'
+import AboutTheArtist from './AboutTheArtist';
 
 function HomePageMainContainer() {
+  const { ref, inView } = useInView({
+    threshold: 0.5, // Trigger when 50% visible
+    triggerOnce: false,
+  });
+
   return (
-    <main role='main' id='main-home' className='grid w-full mt-12 h-full'>
-      {/* About */}
-      <section className='grid w-full'>
-        <div className='grid w-full h-fit gap-y-8 px-8'>
-          {/* Site Intro */}
-          <section className='grid'>
-            <div className='grid gap-y-4 text-colour5 justify-center text-center'>
-              <h1 className='text-3xl font-bold'>{CompanyName}</h1>
-              <FaPhoenixSquadron className='text-6xl mx-auto' />
-            </div>
-          </section>
+    <main role="main" id="main-home" className="grid w-full mt-12 h-full">
+      <AboutTheArtist />
 
-          {/* Phone section */}
-          <div className='grid lg:hidden'>
-            <section className='grid'>
-              <figure className='border-r-4 border-b-4 border-colour5 border-solid mt-4'>
-                <img
-                  src={ArtistMainImage}
-                  alt='A hand-crafted feather headdress by the artist, beautifully modeled'
-                  className='w-full h-auto'
-                />
-                <figcaption className='sr-only'>
-                  A unique feather headdress crafted by the artist.
-                </figcaption>
-              </figure>
-            </section>
-
-            {/* About Section */}
-            <section aria-labelledby='about-the-artist'>
-              <article className='text-center'>
-                <h2
-                  id='about-the-artist'
-                  className='text-2xl font-semibold mb-4'
-                >
-                  About the Artist
-                </h2>
-                <p className='mb-4'>
-                  Behind every masterpiece lies intention, emotion, and vision.
-                  This artist creates exquisite, hand-crafted headdresses that
-                  blend natural elements with bold fantasy aesthetics. Each
-                  piece is a sculptural triumph, embodying elegance, power, and
-                  the essence of individuality.
-                </p>
-                <p>
-                  Her work is rare and unapologetically original — often
-                  reserved for editorial shoots, private collectors, or those
-                  lucky enough to commission a one-of-a-kind creation. Now, with
-                  this platform, her artistry will finally have a dedicated
-                  space to shine and be celebrated for what it truly is:
-                  wearable art.
-                </p>
-              </article>
-            </section>
-          </div>
-
-          {/* Large screen section */}
-          <div className='hidden lg:grid lg:grid-rows-reg max-h-[110vh]'>
-            <section>
-              <h2
-                id='about-the-artist'
-                className='text-2xl font-semibold text-center mb-4'
-              >
-                About the Artist
-              </h2>
-            </section>
-
-            <div className='relative h-screen overflow-hidden'>
-              {/* Image Section */}
-              <section className='w-full h-full'>
-                <figure className='w-full h-full border-r-4 border-b-4 border-colour5 border-solid'>
-                  <img
-                    src={ArtistMainImage}
-                    alt='A hand-crafted feather headdress by the artist, beautifully modeled'
-                    className='w-full h-full object-contain object-center'
-                  />
-                  <figcaption className='sr-only'>
-                    A unique feather headdress crafted by the artist.
-                  </figcaption>
-                </figure>
-              </section>
-
-              {/* Left Paragraph */}
-              {/* Left Paragraph */}
-              <section
-                aria-labelledby='about-intention'
-                className='absolute left-10 top-1/2 -translate-y-1/2 w-[40%]'
-              >
-                <article className='text-left p-4 rounded-lg'>
-                  <h3
-                    id='about-intention'
-                    className='text-xl font-semibold mb-2'
-                  >
-                    Intention and Craft
-                  </h3>
-                  <p>
-                    Behind every masterpiece lies intention, emotion, and
-                    vision. This artist creates exquisite, hand-crafted
-                    headdresses that blend natural elements with bold fantasy
-                    aesthetics. Each piece is a sculptural triumph, embodying
-                    elegance, power, and the essence of individuality.
-                  </p>
-                </article>
-              </section>
-
-              {/* Right Paragraph */}
-              <section
-                aria-labelledby='about-rarity'
-                className='absolute right-10 top-1/2 -translate-y-1/2 w-[40%]'
-              >
-                <article className='text-left p-4 rounded-lg'>
-                  <h3 id='about-rarity' className='text-xl font-semibold mb-2'>
-                    Rarity and Recognition
-                  </h3>
-                  <p>
-                    Her work is rare and unapologetically original — often
-                    reserved for editorial shoots, private collectors, or those
-                    lucky enough to commission a one-of-a-kind creation. Now,
-                    with this platform, her artistry will finally have a
-                    dedicated space to shine and be celebrated for what it truly
-                    is: wearable art.
-                  </p>
-                </article>
-              </section>
-            </div>
-          </div>
+      <section aria-label="Video showcase of phoenix yellow feather headdress">
+        <div>
+          <video
+            ref={ref}
+            src={MainVideo}
+            muted
+            playsInline
+            preload="metadata"
+            loop={inView}
+            autoPlay={inView}
+            controls={false}
+            aria-describedby="video-desc"
+            style={{ width: '100%', height: 'auto' }}
+          >
+            Sorry, your browser does not support embedded videos.
+          </video>
+          <p id="video-desc" className="sr-only">
+            Looping video showing a phoenix yellow feather headdress rotating with transparent background.
+          </p>
         </div>
       </section>
     </main>

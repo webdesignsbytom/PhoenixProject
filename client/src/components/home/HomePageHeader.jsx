@@ -55,13 +55,22 @@ function HomePageHeader() {
         className='timeRunning absolute top-0 left-0 z-30 h-1 lg:h-2'
         style={{
           animation: 'runningTime 6s linear 1 forwards',
-          backgroundColor: backgroundItemsArray[currentIndex].timebarColour,
+          backgroundColor:
+            backgroundItemsArray[
+              (currentIndex + 1) % backgroundItemsArray.length
+            ].timebarColour,
         }}
       ></div>
 
       <div className='grid relative h-full w-full bg-cover bg-no-repeat'>
         {/* Nav */}
-        <Navbar textColour={backgroundItemsArray[currentIndex].navTextColour} />
+        <Navbar
+          textColour={
+            backgroundItemsArray[
+              (currentIndex + 1) % backgroundItemsArray.length
+            ].timebarColour
+          }
+        />
 
         <header ref={containerRef} className='grid h-full'>
           {backgroundItemsArray.map((item, idx) => (

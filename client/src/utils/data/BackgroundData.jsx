@@ -15,7 +15,7 @@ import WhiteGold3 from '../../assets/images/products/phoenix-headdress-product-n
 
 export const backgroundItemsArray = [
   {
-    image: PinkBlue2,
+    image: PinkBlue2, // first item is hidden
     title: 'Aurora Bloom',
     name: 'Skye',
     description: 'Mystical elegance meets modern goddess energy.',
@@ -29,6 +29,23 @@ export const backgroundItemsArray = [
     navTextColour: '#FF69B4',
     textShadowColour: '#8B008B',
     paraTextColour: '#000000',
+  },
+  {
+    image: PinkBlue2,
+    title: 'Aurora Moon',
+    name: 'Skye',
+    description: 'Mystical elegance meets modern goddess energy.',
+    titleColor: '#90CAF9', // khaki, warm but soft yellow
+    nameColor: '#E0F7FA', // light cyan, soft and readable
+    timebarColour: '#90CAF9', // soft sky blue
+    backgroundStyle:
+      'linear-gradient(10deg, #0000e3 0%, #0000e3 33.33%, white 33.33%, white 56.66%, #760218 56.66%, #760218 100%)',
+    buttonBgColor: '#760218', // dark red, matching stripe
+    buttonBorderColor: '#E0F7FA', // light cyan border for contrast
+    buttonTextColor: '#FFFFFF', // white text on button
+    navTextColour: '#90CAF9', // same soft sky blue for nav
+    textShadowColour: '#1A237E', // navy blue shadow, subtle and deep
+    paraTextColour: '#DDDDDD', // light gray for paragraphs
   },
   {
     image: MultiColourFeather,
@@ -47,20 +64,38 @@ export const backgroundItemsArray = [
     paraTextColour: '#000000',
   },
   {
+    image: PinkBlue2,
+    title: 'Aurora Bloom',
+    name: 'Skye',
+    description: 'Mystical elegance meets modern goddess energy.',
+    titleColor: '#F0E68C', // khaki, warm but soft yellow
+    nameColor: '#E0F7FA', // light cyan, soft and readable
+    timebarColour: '#90CAF9', // soft sky blue
+    backgroundStyle:
+      'linear-gradient(10deg, #0000e3 0%, #0000e3 33.33%, white 33.33%, white 56.66%, #760218 56.66%, #760218 100%)',
+    buttonBgColor: '#760218', // dark red, matching stripe
+    buttonBorderColor: '#E0F7FA', // light cyan border for contrast
+    buttonTextColor: '#FFFFFF', // white text on button
+    navTextColour: '#90CAF9', // same soft sky blue for nav
+    textShadowColour: '#1A237E', // navy blue shadow, subtle and deep
+    paraTextColour: '#DDDDDD', // light gray for paragraphs
+  },
+  {
     image: GreenPeacock2,
     title: 'Nightshade',
     name: 'Ravenna',
     description: 'Dark, sleek, and unapologetically bold.',
-    titleColor: '#1E1E1E',
-    nameColor: '#8A2BE2',
-    timebarColour: '#2E8B57',
-    backgroundStyle: 'linear-gradient(to top, #434343, #000000)',
-    buttonBgColor: '#8A2BE2',
-    buttonBorderColor: '#4B0082',
-    buttonTextColor: '#FFFFFF',
-    navTextColour: '#8A2BE2',
-    textShadowColour: '#000000',
-    paraTextColour: '#000000',
+    titleColor: '#1E1E1E', // almost black for text clarity
+    nameColor: '#8A2BE2', // blue violet for name
+    timebarColour: '#2E8B57', // green for timebar (matches header)
+    backgroundStyle:
+      'radial-gradient(circle, rgba(138, 43, 226, 1) 0%, rgba(75, 0, 130, 1) 100%)',
+    buttonBgColor: '#8A2BE2', // violet button bg
+    buttonBorderColor: '#4B0082', // indigo border
+    buttonTextColor: '#FFFFFF', // white text on button
+    navTextColour: '#8A2BE2', // nav text violet
+    textShadowColour: '#000000', // black shadow for text
+    paraTextColour: '#000000', // black paragraph text
   },
   {
     image: BronzeHorns,
