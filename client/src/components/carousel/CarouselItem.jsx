@@ -58,7 +58,7 @@ function CarouselItem({ item }) {
 
           <div className='flex gap-4 mt-4 opacity-0 animate-[animate_1s_ease-in-out_3.2s_forwards] lg:animate-[animate_1s_ease-in-out_1.3s_forwards]'>
             <a
-              href='main-home'
+              href='#main-home'
               className='px-4 lg:px-8 py-2 rounded hover:brightness-110 transition shadow-cardShadowBold'
               style={{
                 backgroundColor: item.buttonBgColor || '#ffffff',

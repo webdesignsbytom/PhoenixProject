@@ -49,8 +49,8 @@ function HomePageHeader() {
   };
 
   return (
-    <section className='grid h-screen relative min-h-screen w-full'>
-      <div
+    <header className='grid h-screen relative min-h-screen w-full'>
+      <aside
         ref={timeRunningRef}
         className='timeRunning absolute top-0 left-0 z-30 h-1 lg:h-2'
         style={{
@@ -60,7 +60,7 @@ function HomePageHeader() {
               (currentIndex + 1) % backgroundItemsArray.length
             ].timebarColour,
         }}
-      ></div>
+      ></aside>
 
       <div className='grid relative h-full w-full bg-cover bg-no-repeat'>
         {/* Nav */}
@@ -70,15 +70,20 @@ function HomePageHeader() {
               (currentIndex + 1) % backgroundItemsArray.length
             ].timebarColour
           }
+          navBackgroundColour={
+            backgroundItemsArray[
+              (currentIndex + 1) % backgroundItemsArray.length
+            ].navBackgroundColour
+          }
         />
 
-        <header ref={containerRef} className='grid h-full'>
+        <section ref={containerRef} className='grid h-full'>
           {backgroundItemsArray.map((item, idx) => (
             <CarouselItem key={idx} item={item} />
           ))}
-        </header>
+        </section>
       </div>
-    </section>
+    </header>
   );
 }
 

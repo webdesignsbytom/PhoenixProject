@@ -6,7 +6,7 @@ nav {
 
 .phone-nav {
   position: absolute;
-  top: 100%; 
+  top: 100%;
   left: 0;
   width: 100%;
   transform: translateY(-100%);
@@ -25,15 +25,36 @@ nav {
 @keyframes fadeUpAnimation {
   0% {
     opacity: 0;
-    transform: translateY(20px); /* Start slightly below */
+    transform: translateY(40px); /* Start slightly below */
+    filter: blur(8px);
   }
   100% {
     opacity: 1;
-    transform: translateY(0); /* End at the original position */
+    transform: translateY(20px); /* End at the original position */
+    filter: blur(0);
   }
 }
 
 .fade-up-animation {
   opacity: 0; /* Start invisible */
-  animation: fadeUpAnimation 0.8s ease-in-out forwards; /* Customize duration and easing as needed */
+  animation: fadeUpAnimation 1s ease-in-out forwards; /* Customize duration and easing as needed */
+}
+
+@keyframes fadeUpHardAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(12rem);
+    filter: blur(4px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+.fade-up-hard-animation {
+  opacity: 0;
+  animation: fadeUpHardAnimation 1.6s ease-in-out forwards;
+  will-change: transform, opacity, filter;
 }

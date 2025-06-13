@@ -17,7 +17,7 @@ module.exports = {
         'colour3': '#fdf7f6',
         'colour4': '#faebe7',
         'colour5': '#e2725b',
-        'colour6': '#f2ab9b',
+        'colour6': '#6b0706',
         'colour7': '#374151', // Dark text
         'colour8': '#4b5563', // Light Text
         'colour9': '#d1d5db', // Input bg

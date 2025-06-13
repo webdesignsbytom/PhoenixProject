@@ -1,20 +1,12 @@
 import React from 'react';
 // Constants
 import {
-  FACEBOOK_URL,
   INSTAGRAM_URL,
-  GOOGLE_URL,
-  GITHUB_URL,
-  APPLE_URL,
   X_URL,
 } from '../../utils/Constants';
-// Images
-import FacebookLogo from '../../assets/images/media_icons/facebook_fb_social_media_logo_icon_64px.png';
-import InstagramLogo from '../../assets/images/media_icons/instagram_camera_social_media_netowrking_logo_icon_64px.png';
-import GoogleLogo from '../../assets/images/media_icons/google_brand_branding_logo_network_icon_64px.png';
-import AppleLogo from '../../assets/images/media_icons/apple_computers_black_logo_icon_64px.png';
-import GithubLogo from '../../assets/images/media_icons/github_code_octopus_logo_icon_64px.png';
-import XLogo from '../../assets/images/media_icons/x_twitter_social_media_black_logo_icon_64px.png';
+// Icons
+import { FaInstagram } from "react-icons/fa";
+
 // Components
 import SocialMediaPin from './SocialMediaPin';
 
@@ -25,49 +17,10 @@ function SocialMediaCTA() {
 
   const socialMediaPins = [
     {
-      serviceName: 'Facebook',
-      icon: FacebookLogo,
-      service: 'Facebook',
-      url: FACEBOOK_URL,
-      background: { background: '#1877F2' },
-    },
-    {
       serviceName: 'Instagram',
-      icon: InstagramLogo,
+      icon: <FaInstagram />,
       service: 'Instagram',
       url: INSTAGRAM_URL,
-      background: {
-        background:
-          'linear-gradient(45deg, #fccc63, #fbad50, #cd486b, #4c68d7)',
-      },
-    },
-    {
-      serviceName: 'Google',
-      icon: GoogleLogo,
-      service: 'Google',
-      url: GOOGLE_URL,
-      background: { background: '#4285F4' },
-    },
-    {
-      serviceName: 'GitHub',
-      icon: GithubLogo,
-      service: 'Github',
-      url: GITHUB_URL,
-      background: { background: '#333' },
-    },
-    {
-      serviceName: 'Apple',
-      icon: AppleLogo,
-      service: 'Apple',
-      url: APPLE_URL,
-      background: { background: '#000' },
-    },
-    {
-      serviceName: 'X',
-      icon: XLogo,
-      service: 'Twitter',
-      url: X_URL,
-      background: { background: '#1DA1F2' },
     },
   ];
 

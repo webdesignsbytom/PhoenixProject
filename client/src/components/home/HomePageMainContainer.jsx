@@ -25,11 +25,16 @@ function HomePageMainContainer() {
   }, [inView]);
 
   return (
-    <main role="main" id="main-home" className="grid w-full mt-12 h-full">
+    <main role='main' id='main-home' className='grid w-full h-full'>
+      {/* About */}
       <AboutTheArtist />
 
-      <section aria-label="Video showcase of phoenix yellow feather headdress">
-        <div>
+      {/* Video */}
+      <section
+        aria-label='Video showcase of phoenix yellow feather headdress'
+        className='grid w-full bg-colour1'
+      >
+        <div className='grid py-12'>
           <video
             ref={(node) => {
               ref(node);
@@ -38,17 +43,17 @@ function HomePageMainContainer() {
             src={MainVideo}
             muted
             playsInline
-            preload="metadata"
+            preload='metadata'
             loop
             controls={false}
-            aria-describedby="video-desc"
-            style={{ width: '100%', height: 'auto' }}
-            className="max-h-[90vh]"
+            aria-describedby='video-desc'
+            className='max-h-[90vh] mx-auto max-w-[50vw]'
           >
             Sorry, your browser does not support embedded videos.
           </video>
-          <p id="video-desc" className="sr-only">
-            Looping video showing a phoenix yellow feather headdress rotating with transparent background.
+          <p id='video-desc' className='sr-only'>
+            Looping video showing a phoenix yellow feather headdress rotating
+            with transparent background.
           </p>
         </div>
       </section>

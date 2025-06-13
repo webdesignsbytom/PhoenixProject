@@ -27,6 +27,7 @@ export const backgroundItemsArray = [
     buttonBorderColor: '#FFC0CB',
     buttonTextColor: '#000000',
     navTextColour: '#FF69B4',
+    navBackgroundColour: '#FF69B4',
     textShadowColour: '#8B008B',
     paraTextColour: '#000000',
   },
@@ -44,6 +45,7 @@ export const backgroundItemsArray = [
     buttonBorderColor: '#E0F7FA', // light cyan border for contrast
     buttonTextColor: '#FFFFFF', // white text on button
     navTextColour: '#90CAF9', // same soft sky blue for nav
+    navBackgroundColour: '#90CAF9', // same soft sky blue for nav
     textShadowColour: '#1A237E', // navy blue shadow, subtle and deep
     paraTextColour: '#DDDDDD', // light gray for paragraphs
   },
@@ -60,6 +62,7 @@ export const backgroundItemsArray = [
     buttonBorderColor: '#FF1493',
     buttonTextColor: '#FFFFFF',
     navTextColour: '#FF1493',
+    navBackgroundColour: '#FF1493',
     textShadowColour: '#C71585',
     paraTextColour: '#000000',
   },
@@ -77,6 +80,7 @@ export const backgroundItemsArray = [
     buttonBorderColor: '#E0F7FA', // light cyan border for contrast
     buttonTextColor: '#FFFFFF', // white text on button
     navTextColour: '#90CAF9', // same soft sky blue for nav
+    navBackgroundColour: '#90CAF9', // same soft sky blue for nav
     textShadowColour: '#1A237E', // navy blue shadow, subtle and deep
     paraTextColour: '#DDDDDD', // light gray for paragraphs
   },
@@ -94,6 +98,7 @@ export const backgroundItemsArray = [
     buttonBorderColor: '#4B0082', // indigo border
     buttonTextColor: '#FFFFFF', // white text on button
     navTextColour: '#8A2BE2', // nav text violet
+    navBackgroundColour: '#8A2BE2', // nav text violet
     textShadowColour: '#000000', // black shadow for text
     paraTextColour: '#000000', // black paragraph text
   },
@@ -110,6 +115,7 @@ export const backgroundItemsArray = [
     buttonBorderColor: '#8B0000',
     buttonTextColor: '#FFFFFF',
     navTextColour: '#B22222',
+    navBackgroundColour: '#B22222',
     textShadowColour: '#5C0000',
     paraTextColour: '#000000',
   },
@@ -126,6 +132,7 @@ export const backgroundItemsArray = [
     buttonBorderColor: '#B8860B',
     buttonTextColor: '#000000',
     navTextColour: '#800080',
+    navBackgroundColour: '#800080',
     textShadowColour: '#4B0082',
     paraTextColour: '#000000',
   },
@@ -142,6 +149,7 @@ export const backgroundItemsArray = [
     buttonBorderColor: '#663399',
     buttonTextColor: '#FFFFFF',
     navTextColour: '#663399',
+    navBackgroundColour: '#663399',
     textShadowColour: '#000000',
     paraTextColour: '#000000',
   },
@@ -158,6 +166,7 @@ export const backgroundItemsArray = [
     buttonBorderColor: '#FF1493',
     buttonTextColor: '#FFFFFF',
     navTextColour: '#FF4500',
+    navBackgroundColour: '#FF4500',
     textShadowColour: '#B22222',
     paraTextColour: '#000000',
   },
@@ -174,6 +183,7 @@ export const backgroundItemsArray = [
     buttonBorderColor: '#2E8B57',
     buttonTextColor: '#FFFFFF',
     navTextColour: '#2F4F4F',
+    navBackgroundColour: '#2F4F4F',
     textShadowColour: '#006400',
     paraTextColour: '#000000',
   },
@@ -190,6 +200,7 @@ export const backgroundItemsArray = [
     buttonBorderColor: '#B0C4DE',
     buttonTextColor: '#000000',
     navTextColour: '#4682B4',
+    navBackgroundColour: '#4682B4',
     textShadowColour: '#5F9EA0',
     paraTextColour: '#000000',
   },

@@ -13,8 +13,9 @@ import useNavigateToPage from '../../hooks/useNavigateToPage';
 // Nav data
 import { getNavLinkItemsArray } from '../../utils/data/NavData';
 import { removeToken } from '../../utils/user/token';
+import SocialMediaCTA from '../socialMedia/SocialMediaCTA';
 
-function Navbar({ textColour }) {
+function Navbar({ textColour, navBackgroundColour }) {
   const { user, setUser } = useUser();
   const navigateToPage = useNavigateToPage();
   const navLinkItemsArray = getNavLinkItemsArray(user);
@@ -57,13 +58,21 @@ function Navbar({ textColour }) {
             onClick={togglePhoneNav}
             className='grid md:hidden w-fit h-fit items-center justify-center text-4xl text-white cursor-pointer'
           >
-            <IoMdMenu className='active:scale-90 duration-300 text-colour5' />
+            <IoMdMenu
+              className='active:scale-90 duration-300'
+              style={{ color: textColour }}
+            />
           </button>
 
           {/* Large screen */}
           <ul className='hidden md:grid grid-flow-col gap-6 items-center text-orange-600'>
             {navLinkItemsArray.map(({ path, label }) => (
-              <NavItem key={label} url={path} title={label} textColour={textColour} />
+              <NavItem
+                key={label}
+                url={path}
+                title={label}
+                textColour={textColour}
+              />
             ))}
             {user?.email && (
               <li>
@@ -81,15 +90,21 @@ function Navbar({ textColour }) {
 
       {/* Phone navbar */}
       <section
-        className={`phone-nav absolute top-full bg-colour2 left-0 w-full bg-nav-background transition-transform duration-300 ${
+        className={`phone-nav absolute top-full left-0 w-full transition-transform duration-300 ${
           isPhoneNavOpen
             ? 'translate-y-0 opacity-100'
             : '-translate-y-full opacity-0'
         }`}
+        style={{ backgroundColor: navBackgroundColour }}
       >
         <ul className='grid gap-8 items-center justify-center text-center text-orange-600 py-10'>
           {navLinkItemsArray.map(({ path, label }) => (
-            <NavItem key={label} url={path} title={label} textColour={textColour} />
+            <NavItem
+              key={label}
+              url={path}
+              title={label}
+              textColour={textColour}
+            />
           ))}
           {user?.email && (
             <li>
@@ -102,6 +117,9 @@ function Navbar({ textColour }) {
             </li>
           )}
         </ul>
+        <div className='grid pb-6 text-3xl' style={{ color: textColour }}>
+          <SocialMediaCTA />
+        </div>
       </section>
     </nav>
   );
