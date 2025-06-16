@@ -65,7 +65,7 @@ import IMG_20250608_WA0072 from '../../assets/images/headdress/IMG-20250608-WA00
 import IMG_20250608_WA0073 from '../../assets/images/headdress/IMG-20250608-WA0073.jpg';
 import IMG_20250608_WA0074 from '../../assets/images/headdress/IMG-20250608-WA0074.jpg';
 
-export const headdressImages = [
+export const headdressImagesArray = [
   { name: 'IMG-20250608-WA0000', src: IMG_20250608_WA0000 },
   { name: 'IMG-20250608-WA0001', src: IMG_20250608_WA0001 },
   { name: 'IMG-20250608-WA0002', src: IMG_20250608_WA0002 },
