@@ -5,6 +5,7 @@ import { usePageTracking } from '../../hooks/useAnalytics';
 import FooterComponent from '../../components/footer/FooterComponent';
 import HomePageMainContainer from '../../components/home/HomePageMainContainer';
 import HomePageHeader from '../../components/home/HomePageHeader';
+import Navbar from '../../components/nav/Navbar';
 
 const HomePage = React.memo(() => {
   usePageTracking();
@@ -14,6 +15,7 @@ const HomePage = React.memo(() => {
       {/* Page */}
       <div className='grid min-h-screen overflow-hidden bg-colour1 text-colour2 dark:bg-colour2 dark:text-colour1 font-poppins'>
         <div className='grid'>
+          <Navbar />
           {/* Navigation */}
           <HomePageHeader />
 

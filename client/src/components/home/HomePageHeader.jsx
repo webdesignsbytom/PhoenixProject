@@ -1,87 +1,13 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 // Components
-import Navbar from '../../components/nav/Navbar';
-import { backgroundItemsArray } from '../../utils/data/BackgroundData';
-import CarouselItem from '../carousel/CarouselItem';
 
 function HomePageHeader() {
-  const timeAutoNext = 6000;
-
-  const containerRef = useRef(null);
-  const timeRunningRef = useRef(null);
-
-  // Track current index of visible carousel item
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  // Rotate carousel & reset animation & update color every 5 seconds
-  useEffect(() => {
-    const interval = setInterval(() => {
-      rotateCarousel();
-    }, timeAutoNext);
-
-    return () => clearInterval(interval);
-  }, [currentIndex]);
-
-  // Function to rotate carousel & reset animation
-  const rotateCarousel = () => {
-    const container = containerRef.current;
-    if (container && container.children.length > 0) {
-      const firstChild = container.children[0];
-      container.removeChild(firstChild);
-      container.appendChild(firstChild);
-
-      // Update index (cycle through array)
-      setCurrentIndex((prev) => (prev + 1) % backgroundItemsArray.length);
-    }
-
-    // Reset animation
-    const timeRunningEl = timeRunningRef.current;
-    if (timeRunningEl) {
-      timeRunningEl.style.animation = 'none';
-      void timeRunningEl.offsetWidth; // trigger reflow
-      timeRunningEl.style.animation = 'runningTime 6s linear 1 forwards';
-    }
-  };
-
-  // Handle manual NEXT button
-  const handleNextClick = () => {
-    rotateCarousel();
-  };
-
   return (
-    <header className='grid h-screen relative min-h-screen w-full'>
-      <aside
-        ref={timeRunningRef}
-        className='timeRunning absolute top-0 left-0 z-30 h-1 lg:h-2'
-        style={{
-          animation: 'runningTime 6s linear 1 forwards',
-          backgroundColor:
-            backgroundItemsArray[
-              (currentIndex + 1) % backgroundItemsArray.length
-            ].timebarColour,
-        }}
-      ></aside>
-
-      <div className='grid relative h-full w-full bg-cover bg-no-repeat'>
-        {/* Nav */}
-        <Navbar
-          textColour={
-            backgroundItemsArray[
-              (currentIndex + 1) % backgroundItemsArray.length
-            ].timebarColour
-          }
-          navBackgroundColour={
-            backgroundItemsArray[
-              (currentIndex + 1) % backgroundItemsArray.length
-            ].navBackgroundColour
-          }
-        />
-
-        <section ref={containerRef} className='grid h-full'>
-          {backgroundItemsArray.map((item, idx) => (
-            <CarouselItem key={idx} item={item} />
-          ))}
-        </section>
+    <header className='grid relative w-full items-center justify-center text-center px-4'>
+      <div className='grid gap-y-2'>
+        <h1 className='text-4xl md:text-6xl font-bold'>🔥 Phoenix Headdress</h1>
+        <p className='text-xl md:text-2xl italic'>Rising in Art, Rebirth in Style</p>
+        <p className='text-md md:text-lg tracking-wide'>Custom Designs | Bold Statements | Eternal Flame</p>
       </div>
     </header>
   );
