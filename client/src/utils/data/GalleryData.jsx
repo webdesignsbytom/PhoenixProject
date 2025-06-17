@@ -65,6 +65,7 @@ import IMG_20250608_WA0072 from '../../assets/images/headdress/IMG-20250608-WA00
 import IMG_20250608_WA0073 from '../../assets/images/headdress/IMG-20250608-WA0073.jpg';
 import IMG_20250608_WA0074 from '../../assets/images/headdress/IMG-20250608-WA0074.jpg';
 import ProductBlue from '../../assets/images/products/phoenix-headdress-product-no-background-pink-blue-3.png';
+import ProductWhite from '../../assets/images/products/phoenix-headdress-product-no-background-white-and-gold-3.png';
 
 export const headdressGalleryGroupsArray = [
   {
@@ -72,17 +73,11 @@ export const headdressGalleryGroupsArray = [
     description:
       'Inspired by cosmic flame and divine energy, this piece erupts with pinks, whites, and royal blues. A radiant tribute to rebirth and bold femininity.',
     images: [
-      { name: 'IMG-20250608-WA0000', src: ProductBlue },
+      { name: 'cutout main', src: ProductBlue },
+      { name: 'IMG-20250608-WA0000', src: IMG_20250608_WA0000 },
       { name: 'IMG-20250608-WA0001', src: IMG_20250608_WA0001 },
       { name: 'IMG-20250608-WA0002', src: IMG_20250608_WA0002 },
       { name: 'IMG-20250608-WA0003', src: IMG_20250608_WA0003 },
-      { name: 'IMG-20250608-WA0004', src: IMG_20250608_WA0004 },
-      { name: 'IMG-20250608-WA0005', src: IMG_20250608_WA0005 },
-      { name: 'IMG-20250608-WA0006', src: IMG_20250608_WA0006 },
-      { name: 'IMG-20250608-WA0007', src: IMG_20250608_WA0007 },
-      { name: 'IMG-20250608-WA0008', src: IMG_20250608_WA0008 },
-      { name: 'IMG-20250608-WA0009', src: IMG_20250608_WA0009 },
-      { name: 'IMG-20250608-WA0010', src: IMG_20250608_WA0010 },
     ],
   },
   {
@@ -90,6 +85,7 @@ export const headdressGalleryGroupsArray = [
     description:
       'A jungle-inspired statement piece blending deep greens and metallics. Sharp, elegant, and alive with movement — this design channels wild nature and ancient power.',
     images: [
+      { name: 'white main', src: ProductWhite },
       { name: 'IMG-20250608-WA0011', src: IMG_20250608_WA0011 },
       { name: 'IMG-20250608-WA0012', src: IMG_20250608_WA0012 },
       { name: 'IMG-20250608-WA0013', src: IMG_20250608_WA0013 },
@@ -97,8 +93,6 @@ export const headdressGalleryGroupsArray = [
       { name: 'IMG-20250608-WA0015', src: IMG_20250608_WA0015 },
       { name: 'IMG-20250608-WA0016', src: IMG_20250608_WA0016 },
       { name: 'IMG-20250608-WA0017', src: IMG_20250608_WA0017 },
-      { name: 'IMG-20250608-WA0027', src: IMG_20250608_WA0027 },
-      { name: 'IMG-20250608-WA0028', src: IMG_20250608_WA0028 },
     ],
   },
   {
@@ -122,16 +116,16 @@ export const headdressGalleryGroupsArray = [
     description:
       'Dominant textures and tribal symmetry combine in this crown of emerald feathers and golden spikes. A piece made for movement and primal expression.',
     images: [
-      { name: 'IMG-20250608-WA0038', src: IMG_20250608_WA0038 },
-      { name: 'IMG-20250608-WA0039', src: IMG_20250608_WA0039 },
-      { name: 'IMG-20250608-WA0040', src: IMG_20250608_WA0040 },
-      { name: 'IMG-20250608-WA0041', src: IMG_20250608_WA0041 },
-      { name: 'IMG-20250608-WA0042', src: IMG_20250608_WA0042 },
       { name: 'IMG-20250608-WA0043', src: IMG_20250608_WA0043 },
       { name: 'IMG-20250608-WA0044', src: IMG_20250608_WA0044 },
       { name: 'IMG-20250608-WA0045', src: IMG_20250608_WA0045 },
       { name: 'IMG-20250608-WA0046', src: IMG_20250608_WA0046 },
       { name: 'IMG-20250608-WA0047', src: IMG_20250608_WA0047 },
+      { name: 'IMG-20250608-WA0048', src: IMG_20250608_WA0048 },
+      { name: 'IMG-20250608-WA0049', src: IMG_20250608_WA0049 },
+      { name: 'IMG-20250608-WA0050', src: IMG_20250608_WA0050 },
+      { name: 'IMG-20250608-WA0051', src: IMG_20250608_WA0051 },
+      { name: 'IMG-20250608-WA0052', src: IMG_20250608_WA0052 },
     ],
   },
   {
@@ -139,30 +133,17 @@ export const headdressGalleryGroupsArray = [
     description:
       'Bold color-blocking, electrified lines, and mythic energy flow through this avant-garde design. This piece channels futuristic fashion and divine rebellion.',
     images: [
-      { name: 'IMG-20250608-WA0048', src: IMG_20250608_WA0048 },
-      { name: 'IMG-20250608-WA0049', src: IMG_20250608_WA0049 },
-      { name: 'IMG-20250608-WA0050', src: IMG_20250608_WA0050 },
-      { name: 'IMG-20250608-WA0051', src: IMG_20250608_WA0051 },
-      { name: 'IMG-20250608-WA0052', src: IMG_20250608_WA0052 },
       { name: 'IMG-20250608-WA0053', src: IMG_20250608_WA0053 },
       { name: 'IMG-20250608-WA0054', src: IMG_20250608_WA0054 },
       { name: 'IMG-20250608-WA0055', src: IMG_20250608_WA0055 },
+    ],
+  },
+  {
+    title: 'Headdress Six: New Voltage',
+    description:
+      'Bold color-blocking, electrified lines, and mythic energy flow through this avant-garde design. This piece channels futuristic fashion and divine rebellion.',
+    images: [
       { name: 'IMG-20250608-WA0056', src: IMG_20250608_WA0056 },
-      { name: 'IMG-20250608-WA0057', src: IMG_20250608_WA0057 },
-      { name: 'IMG-20250608-WA0058', src: IMG_20250608_WA0058 },
-      { name: 'IMG-20250608-WA0059', src: IMG_20250608_WA0059 },
-      { name: 'IMG-20250608-WA0060', src: IMG_20250608_WA0060 },
-      { name: 'IMG-20250608-WA0061', src: IMG_20250608_WA0061 },
-      { name: 'IMG-20250608-WA0062', src: IMG_20250608_WA0062 },
-      { name: 'IMG-20250608-WA0063', src: IMG_20250608_WA0063 },
-      { name: 'IMG-20250608-WA0064', src: IMG_20250608_WA0064 },
-      { name: 'IMG-20250608-WA0065', src: IMG_20250608_WA0065 },
-      { name: 'IMG-20250608-WA0066', src: IMG_20250608_WA0066 },
-      { name: 'IMG-20250608-WA0067', src: IMG_20250608_WA0067 },
-      { name: 'IMG-20250608-WA0068', src: IMG_20250608_WA0068 },
-      { name: 'IMG-20250608-WA0069', src: IMG_20250608_WA0069 },
-      { name: 'IMG-20250608-WA0070', src: IMG_20250608_WA0070 },
-      { name: 'IMG-20250608-WA0071', src: IMG_20250608_WA0071 },
       { name: 'IMG-20250608-WA0072', src: IMG_20250608_WA0072 },
       { name: 'IMG-20250608-WA0073', src: IMG_20250608_WA0073 },
       { name: 'IMG-20250608-WA0074', src: IMG_20250608_WA0074 },

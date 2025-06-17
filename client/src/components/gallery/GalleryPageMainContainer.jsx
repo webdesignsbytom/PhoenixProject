@@ -6,7 +6,7 @@ function GalleryPageMainContainer() {
   return (
     <main
       role='main'
-      className='grid w-full gap-y-24 lg:gap-y-44 px-6 md:px-12 py-8'
+      className='grid w-full gap-y-36 lg:gap-y-44 px-6 md:px-12 py-8'
     >
       {headdressGalleryGroupsArray.map(
         ({ title, description, images }, index) => {
@@ -15,9 +15,9 @@ function GalleryPageMainContainer() {
           return (
             <section key={index} className='grid gap-y-8 container mx-auto'>
               {/* Title + Hero Section */}
-              <div className='grid md:grid-cols-reg gap-y-6 gap-x-12 items-center'>
+              <div className='grid md:grid-cols-reg gap-y- gap-x-12 items-center'>
                 {/* Main Image */}
-                <div className='lg:max-w-[25vw] w-full mx-auto'>
+                <div className='hidden lg:block lg:max-w-[25vw] w-full mx-auto'>
                   <img
                     src={mainImage.src}
                     alt={mainImage.name}
@@ -27,7 +27,16 @@ function GalleryPageMainContainer() {
 
                 {/* Text Content */}
                 <article className='grid gap-y-8'>
-                  <h2 className='text-2xl lg:text-3xl font-bold uppercase'>{title}</h2>
+                  <h2 className='text-2xl lg:text-3xl font-bold uppercase'>
+                    {title}
+                  </h2>
+                                  <div className='lg:hidden lg:max-w-[25vw] w-full mx-auto'>
+                  <img
+                    src={mainImage.src}
+                    alt={mainImage.name}
+                    className='w-full h-auto object-cover lg:max-h-[60vh]'
+                  />
+                </div>
                   <p className='text-lg font-thin'>{description}</p>
                 </article>
               </div>
