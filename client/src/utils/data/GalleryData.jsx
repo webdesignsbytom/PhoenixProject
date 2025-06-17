@@ -64,6 +64,7 @@ import IMG_20250608_WA0071 from '../../assets/images/headdress/IMG-20250608-WA00
 import IMG_20250608_WA0072 from '../../assets/images/headdress/IMG-20250608-WA0072.jpg';
 import IMG_20250608_WA0073 from '../../assets/images/headdress/IMG-20250608-WA0073.jpg';
 import IMG_20250608_WA0074 from '../../assets/images/headdress/IMG-20250608-WA0074.jpg';
+import ProductBlue from '../../assets/images/products/phoenix-headdress-product-no-background-pink-blue-3.png';
 
 export const headdressGalleryGroupsArray = [
   {
@@ -71,7 +72,7 @@ export const headdressGalleryGroupsArray = [
     description:
       'Inspired by cosmic flame and divine energy, this piece erupts with pinks, whites, and royal blues. A radiant tribute to rebirth and bold femininity.',
     images: [
-      { name: 'IMG-20250608-WA0000', src: IMG_20250608_WA0000 },
+      { name: 'IMG-20250608-WA0000', src: ProductBlue },
       { name: 'IMG-20250608-WA0001', src: IMG_20250608_WA0001 },
       { name: 'IMG-20250608-WA0002', src: IMG_20250608_WA0002 },
       { name: 'IMG-20250608-WA0003', src: IMG_20250608_WA0003 },
