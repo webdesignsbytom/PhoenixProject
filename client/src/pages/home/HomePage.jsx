@@ -6,6 +6,8 @@ import FooterComponent from '../../components/footer/FooterComponent';
 import HomePageMainContainer from '../../components/home/HomePageMainContainer';
 import HomePageHeader from '../../components/home/HomePageHeader';
 import Navbar from '../../components/nav/Navbar';
+import BackToTopButton from '../../components/utils/BackToTopButton';
+import FloatingButtons from '../../components/utils/FloatingButtons';
 
 const HomePage = React.memo(() => {
   usePageTracking();
@@ -25,6 +27,8 @@ const HomePage = React.memo(() => {
           {/* Footer */}
           <FooterComponent />
         </div>
+        <BackToTopButton />
+        <FloatingButtons />
       </div>
     </>
   );

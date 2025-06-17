@@ -14,15 +14,12 @@ function AboutTheArtist() {
   });
 
   return (
-    <section
-      className='grid w-full py-12 md:py-20'
-      style={{ background: 'linear-gradient(to right, #ffecd2, #fcb69f)' }}
-      ref={ref}
-    >
+    <section className='grid w-full py-12 md:py-20' ref={ref}>
       <div className='grid w-full h-fit gap-y-8 px-8 sm:px-10'>
         {/* Site Intro */}
         <section className='grid'>
-          <div className='grid gap-y-4 text-colour6 justify-center text-center'>
+          <div className='grid gap-y-4 text-colour5 justify-center text-center'>
+            <FaPhoenixSquadron className='text-2xl mx-auto' />
             <h1
               className='text-3xl md:text-5xl lg:text-8xl uppercase font-bold leading-none'
               style={{
@@ -31,7 +28,6 @@ function AboutTheArtist() {
             >
               {CompanyName}
             </h1>
-            <FaPhoenixSquadron className='text-6xl mx-auto' />
           </div>
         </section>
 
