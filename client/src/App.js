@@ -13,23 +13,17 @@ import {
   MAINTENANCE_PAGE_URL,
   POLICIES_PAGE_URL,
   ADMIN_CONTACT_FORM_PAGE_URL,
-  ADMIN_CALLBACK_FORM_PAGE_URL,
-  NEWSLETTER_PAGE_URL,
-  NEWSLETTER_ADMIN_PAGE_URL,
   GALLERY_PAGE_URL,
+  ABOUT_PAGE_URL,
 } from './utils/Routes';
 import { COOKIE_TIMER, CookiePolicyName } from './utils/Constants';
 // Pages
 // Public
 import HomePage from './pages/home/HomePage';
 import ContactPage from './pages/contact/ContactPage';
-// Newsletter
-import NewsletterSignUpPage from './pages/newsletter/NewsletterSignUpPage';
-import NewsletterAdminPage from './pages/newsletter/admin/NewsletterAdminPage';
 // Admin
 import AdminPage from './pages/admin/AdminPage';
 import ContactFormAdminPage from './pages/contact/admin/ContactFormAdminPage';
-import CallbackFormAdminPage from './pages/contact/admin/CallbackFormAdminPage';
 // Terms and conditions
 import TermAndPoliciesPage from './pages/policies/TermAndPoliciesPage';
 // Maintainance
@@ -37,6 +31,7 @@ import MaintenancePage from './pages/maintenance/MaintenancePage';
 // Error
 import Error404 from './pages/error/Error404';
 import GalleryPage from './pages/gallery/GalleryPage';
+import AboutPage from './pages/about/AboutPage';
 
 // Components
 const CookieConsentModal = lazy(() =>
@@ -85,24 +80,19 @@ function App() {
           {/* Main page routes */}
           <Route path={HOME_PAGE_URL} index element={<HomePage />} />
 
+          <Route path={ABOUT_PAGE_URL} element={<AboutPage />} />
           <Route path={GALLERY_PAGE_URL} element={<GalleryPage />} />
 
           {/* Contact routes */}
           <Route path={CONTACT_PAGE_URL} element={<ContactPage />} />
+
+
           {/* Contact admin routes */}
           <Route
             path={`${ADMIN_CONTACT_FORM_PAGE_URL}/:password`}
             element={
               <LoginAuth>
                 <ContactFormAdminPage />
-              </LoginAuth>
-            }
-          />
-          <Route
-            path={`${ADMIN_CALLBACK_FORM_PAGE_URL}/:password`}
-            element={
-              <LoginAuth>
-                <CallbackFormAdminPage />
               </LoginAuth>
             }
           />
