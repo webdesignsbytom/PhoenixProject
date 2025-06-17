@@ -79,7 +79,7 @@ function Navbar() {
 
       {/* Phone navbar */}
       <section
-        className={`phone-nav absolute top-0 grid items-center gap-4 left-0 w-full main_bg_phone min-h-screen transition-transform duration-300 ${
+        className={`phone-nav absolute top-0 grid items-center gap-4 left-0 w-full bg-colour1 dark:bg-colour2 main_bg_phone min-h-screen transition-transform duration-300 ${
           isPhoneNavOpen
             ? 'translate-y-0 opacity-100'
             : '-translate-y-full opacity-0'
@@ -89,13 +89,13 @@ function Navbar() {
         <button
           onClick={togglePhoneNav}
           aria-label='Close navigation menu'
-          className='absolute top-4 right-4 text-white text-4xl font-bold cursor-pointer active:scale-90 transition-transform duration-300 '
+          className='absolute top-4 right-4 text-colour2 dark:text-colour1 text-4xl font-bold cursor-pointer active:scale-90 transition-transform duration-300 '
         >
           <IoCloseOutline />
         </button>
 
         {/* Menu */}
-        <ul className='grid gap-y-3 md:gap-y-4 items-center justify-center h-fit text-center text-colour1 dark:text-colour1 py-10'>
+        <ul className='grid gap-y-3 md:gap-y-4 items-center justify-center h-fit text-center text-colour2 dark:text-colour1 py-10'>
           {navLinkItemsArray.map(({ path, label }) => (
             <NavItem key={label} url={path} title={label} />
           ))}
@@ -114,7 +114,7 @@ const NavItem = ({ url, title }) => {
       <NavLink
         to={url}
         aria-label={`${title} page navigation tab`}
-        className={`tracking-widest lg:tracking-normal text-2xl lg:text-lg font-newsweekly relative px-4 py-2 transition duration-300
+        className={`tracking-widest lg:tracking-normal text-colour2 dark:text-colour1 text-2xl lg:text-lg font-newsweekly relative px-4 py-2 transition duration-300
           hover:text-colour6 dark:hover:text-colour6 hover:shadow-neon active:scale-75 flex items-center gap-2 ${
             isActive ? 'text-colour5 font-semibold' : ''
           }`}
