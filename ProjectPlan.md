@@ -56,3 +56,26 @@
   - Budget Range (e.g. £500–£3000+)
   - Upload Inspiration Image(s) _(optional)_
 - **CTA**: “Let’s Begin Your Design
+
+<article
+                className={`text-center p-4 rounded-lg ${
+                  inView ? 'fade-up-hard-animation' : ''
+                }`}
+              >
+                <h3 id='about-rarity' className='text-2xl font-semibold mb-2'>
+                  The Builder
+                </h3>
+                <p className='text-xl'>
+                  Her work is rare and unapologetically original — often
+                  reserved for editorial shoots, private collectors, or those
+                  lucky enough to commission a one-of-a-kind creation. Now, with
+                  this platform, her artistry will finally have a dedicated
+                  space to shine and be celebrated for what it truly is:
+                  wearable art.
+                </p>
+              </article>
+
+
+
+
+

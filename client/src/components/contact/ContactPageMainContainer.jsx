@@ -4,11 +4,11 @@ import ContactForm from '../forms/ContactForm';
 
 function ContactPageMainContainer() {
   return (
-    <main role='main' className='grid w-full h-full pb-12'>
+    <main role='main' className='grid w-full h-full pb-12 pt-12'>
       {/* Form section */}
-      <section className='grid w-full'>
+      <section className='grid w-full items-center'>
         <div className='grid w-full px-6 lg:container lg:mx-auto'>
-          <section className='grid border-[1px] border-border-main border-solid rounded-xl shadow-2xl bg-white'>
+          <section className='grid shadow-2xl lg:max-w-[50vw] mx-auto'>
             <div className='grid gap-4 w-full h-full px-8 py-6'>
               {/* Contact form */}
               <section>

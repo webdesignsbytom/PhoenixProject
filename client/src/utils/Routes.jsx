@@ -1,5 +1,6 @@
 // Pages
 export const HOME_PAGE_URL = '/';
+export const ABOUT_PAGE_URL = '/about';
 export const GALLERY_PAGE_URL = '/gallery';
 export const CONTACT_PAGE_URL = '/contact';
 

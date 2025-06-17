@@ -14,19 +14,19 @@ import CompanyMainLogo from '../../assets/images/logos/byte-toast-studio-logo-we
 // Data
 import { FooterLinksArray } from '../../utils/data/FooterData';
 import { MainServicesArray } from '../../utils/data/CompanyData';
+import { FaPhoenixSquadron } from 'react-icons/fa';
 
 function FooterComponent() {
   return (
-    <footer className='grid bg-alt-background w-full overflow-hidden py-6 md:py-12 px-6 md:px-20 font-poppins'>
+    <footer className='grid border-4 border-solid border-colour2 w-full overflow-hidden py-6 md:py-12 px-6 md:px-20 font-poppins'>
       <div className='grid lg:grid-cols-3 mx-auto gap-6 bg-colour1 px-2 md:px-10 py-8 w-full'>
         {/* Logo section */}
         <section className='grid h-fit my-auto gap-4 py-2 w-full'>
           <div className='grid items-center justify-center'>
-            <img
-              src={CompanyMainLogo}
-              alt={`${CompanyName} footer logo`}
-              className='min-w-6 w-full'
-            />
+            <div className={`grid grid-flow-col gap-x-2 items-center`}>
+              <FaPhoenixSquadron className='text-2xl' />{' '}
+              <span>{CompanyName}</span>
+            </div>
           </div>
           <div className='text-center'>
             <p className='text-sm'>{CompanyTagLine}</p>

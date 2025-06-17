@@ -27,6 +27,7 @@ const HomePage = React.memo(() => {
           {/* Footer */}
           <FooterComponent />
         </div>
+        
         <BackToTopButton />
         <FloatingButtons />
       </div>

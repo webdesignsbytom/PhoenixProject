@@ -37,13 +37,13 @@ nav {
 
 .fade-up-animation {
   opacity: 0; /* Start invisible */
-  animation: fadeUpAnimation 1s ease-in-out forwards; /* Customize duration and easing as needed */
+  animation: fadeUpAnimation 0.8s ease-in-out forwards; /* Customize duration and easing as needed */
 }
 
 @keyframes fadeUpHardAnimation {
   0% {
     opacity: 0;
-    transform: translateY(12rem);
+    transform: translateY(6rem);
     filter: blur(4px);
   }
   100% {
