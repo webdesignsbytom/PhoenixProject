@@ -6,7 +6,7 @@ function GalleryPageMainContainer() {
   return (
     <main
       role='main'
-      className='grid w-full gap-y-36 lg:gap-y-44 px-6 md:px-12 lg:px-24 py-8'
+      className='grid w-full gap-y-36 lg:gap-y-44 px-6 md:px-12 lg:px-24 py-8 '
     >  
 
       {headdressGalleryGroupsArray.map(

@@ -13,7 +13,7 @@ function AboutTheArtist() {
 
   return (
     <section className='grid w-full py-12 md:py-20' ref={ref}>
-      <div className='grid w-full lg:grid-cols-reg container mx-auto gap-x-12 h-fit gap-y-8 px-8 sm:px-10'>
+      <div className='grid w-full lg:grid-cols-reg container mx-auto gap-x-12 h-fit gap-y-8 px-8 sm:px-10 md:px-12 lg:px-24'>
         {/* Image */}
         <section className='grid h-fit relative -mr-4 lg:mr-0'>
           <figure className='z-10'>
@@ -58,13 +58,13 @@ function AboutTheArtist() {
               <div className='grid gap-y-2 lg:grid-cols-2 gap-x-4'>
                 <a
                   href={ABOUT_PAGE_URL}
-                  className='bg-colour1 border-4 border-solid border-colour2 hover:bg-colour5 px-2 lg:px-6 py-2 shadow-md active:scale-95'
+                  className='bg-colour1 border-4 border-solid text-center border-colour2 hover:bg-colour5 px-2 lg:px-8 xl:px-12 py-2 shadow-md active:scale-95'
                 >
                   About The Artist
                 </a>
                 <a
                   href={CONTACT_PAGE_URL}
-                  className='bg-colour1 border-4 border-solid border-colour2 hover:bg-colour5 px-2 lg:px-6 py-2 shadow-md active:scale-95'
+                  className='bg-colour1 border-4 border-solid text-center border-colour2 hover:bg-colour5 px-2 lg:px-8 xl:px-12 py-2 shadow-md active:scale-95'
                 >
                   Commision Piece
                 </a>
