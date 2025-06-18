@@ -5,6 +5,7 @@ import { CompanyName } from '../../utils/Constants';
 import Navbar from '../../components/nav/Navbar';
 import { HelmetItem } from '../../components/utils/HelmetItem';
 import AboutPageMainContainer from '../../components/about/AboutPageMainContainer';
+import FooterComponent from '../../components/footer/FooterComponent';
 
 function AboutPage() {
   return (
@@ -49,6 +50,9 @@ function AboutPage() {
 
         {/* Main About Page Content */}
         <AboutPageMainContainer />
+
+        {/* Footer */}
+        <FooterComponent />
       </div>
     </>
   );

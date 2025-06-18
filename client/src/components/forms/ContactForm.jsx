@@ -59,7 +59,7 @@ function ContactForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit} className='grid gap-y-4 md:gap-y-6'>
+    <form onSubmit={handleSubmit} className='grid gap-y-4'>
       {/* 1st row */}
       <section className='lg:grid lg:grid-cols-2 gap-2'>
         <div className=''>
@@ -228,7 +228,7 @@ function ContactForm() {
       <div className='grid items-center'>
         <button
           type='submit'
-          className='w-full bg-colour5 hover:bg-blue-600 active:bg-green-500 text-white py-2 rounded transition'
+          className='w-full bg-colour5 hover:bg-colour6 active:bg-colour6 text-colour1 py-2 rounded transition'
           aria-label='Submit your form'
           disabled={submitState === submitStates[1]} // "inprogress"
         >

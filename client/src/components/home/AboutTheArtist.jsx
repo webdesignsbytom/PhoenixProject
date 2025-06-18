@@ -1,11 +1,8 @@
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
-// Constants
-import { CompanyName } from '../../utils/Constants';
 // Images
 import ArtistMainImage from '../../assets/images/people/phoenix-headdress-profile-photo.jpg';
 // Icons
-import { FaPhoenixSquadron } from 'react-icons/fa';
 import { ABOUT_PAGE_URL, CONTACT_PAGE_URL } from '../../utils/Routes';
 
 function AboutTheArtist() {

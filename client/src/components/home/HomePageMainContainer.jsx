@@ -1,5 +1,7 @@
 import React from 'react';
+// Components
 import AboutTheArtist from './AboutTheArtist';
+// Data
 import { headdressImagesArray } from '../../utils/data/DisplayData';
 
 function HomePageMainContainer() {

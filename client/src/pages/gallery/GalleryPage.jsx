@@ -5,6 +5,9 @@ import { CompanyName } from '../../utils/Constants';
 import Navbar from '../../components/nav/Navbar';
 import { HelmetItem } from '../../components/utils/HelmetItem';
 import GalleryPageMainContainer from '../../components/gallery/GalleryPageMainContainer';
+import BackToTopButton from '../../components/utils/BackToTopButton';
+import FloatingButtons from '../../components/utils/FloatingButtons';
+import FooterComponent from '../../components/footer/FooterComponent';
 
 function GalleryPage() {
   return (
@@ -27,7 +30,7 @@ function GalleryPage() {
       />
 
       {/* Page Content */}
-      <div className='grid min-h-screen bg-colour1 text-colour2 dark:bg-colour2 dark:text-colour1 font-poppins'>
+      <div className='grid min-h-screen bg-colour1 text-colour2 dark:bg-colour2 dark:text-colour1 font-poppins overflow-hidden invisible_scrollbar'>
         <div className='grid grid-rows-reg'>
           {/* Navigation */}
           <Navbar />
@@ -47,6 +50,11 @@ function GalleryPage() {
 
         {/* Main Gallery Content */}
         <GalleryPageMainContainer />
+
+        <FooterComponent />
+
+        <BackToTopButton />
+        <FloatingButtons />
       </div>
     </>
   );

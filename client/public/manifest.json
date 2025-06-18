@@ -1,6 +1,6 @@
 {
-  "short_name": "ByteToast",
-  "name": "Byte Toast Studio - Web, Circuit, and Robotics Design",
+  "short_name": "Phoenix",
+  "name": "Phoenix Headdress – Custom Fantasy Headpieces",
   "icons": [
     {
       "src": "./favicon/favicon.ico",
@@ -8,39 +8,39 @@
       "type": "image/x-icon"
     },
     {
-      "src": "./favicon/web-app-manifest-192x192.png",
+      "src": "./favicon/android-chrome-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "./favicon/web-app-manifest-512x512.png",
+      "src": "./favicon/android-chrome-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#3f1c2f",
   "background_color": "#ffffff",
-  "description": "Byte Toast Studio is a small, innovative team specializing in web, circuit, and robotics design.",
+  "description": "Phoenix Headdress creates bespoke, hand-crafted feather headdresses that embody fantasy, creativity, and individuality.",
   "scope": "/",
   "orientation": "portrait-primary",
   "related_applications": [],
   "prefer_related_applications": false,
   "lang": "en-GB",
   "categories": [
-    "technology",
+    "art",
+    "fashion",
     "design",
-    "development",
-    "electronics",
-    "robotics"
+    "handcrafted",
+    "costume"
   ],
   "shortcuts": [
     {
-      "name": "About Us",
+      "name": "About Phoenix",
       "short_name": "About",
-      "description": "Learn more about Byte Toast Studio.",
-      "url": "/about-us",
+      "description": "Learn about the artist and her creative process.",
+      "url": "/about",
       "icons": [
         {
           "src": "shortcut-about.png",
@@ -50,9 +50,9 @@
       ]
     },
     {
-      "name": "Contact Us",
-      "short_name": "Contact",
-      "description": "Get in touch with Byte Toast Studio.",
+      "name": "Commission a Piece",
+      "short_name": "Commission",
+      "description": "Start a custom headdress inquiry.",
       "url": "/contact",
       "icons": [
         {
@@ -63,13 +63,13 @@
       ]
     },
     {
-      "name": "Portfolio",
-      "short_name": "Portfolio",
-      "description": "Explore our projects and designs.",
-      "url": "/portfolio",
+      "name": "Gallery",
+      "short_name": "Gallery",
+      "description": "Browse past creations and works of wearable art.",
+      "url": "/gallery",
       "icons": [
         {
-          "src": "shortcut-portfolio.png",
+          "src": "shortcut-gallery.png",
           "sizes": "192x192",
           "type": "image/png"
         }
@@ -78,16 +78,16 @@
   ],
   "screenshots": [
     {
-      "src": "screenshot1.png",
+      "src": "screenshot-home.png",
       "sizes": "1080x1920",
       "type": "image/png",
       "label": "Home Page Screenshot"
     },
     {
-      "src": "screenshot2.png",
+      "src": "screenshot-gallery.png",
       "sizes": "1080x1920",
       "type": "image/png",
-      "label": "Portfolio Page Screenshot"
+      "label": "Gallery Page Screenshot"
     }
   ]
 }
