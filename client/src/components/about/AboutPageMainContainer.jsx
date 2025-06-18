@@ -9,7 +9,7 @@ import ArtistImagePhone from '../../assets/images/people/phoenix-headdress-blue-
 
 function AboutPageMainContainer() {
   return (
-    <main role='main' className='grid w-full px-6 md:px-12 py-8'>
+    <main role='main' className='grid w-full px-6 md:px-12 lg:px-24 py-8'>
       {/* 1 */}
       <SectionOne />
 
