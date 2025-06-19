@@ -35,7 +35,7 @@ function FooterComponent() {
         </section>
 
         {/* Footer links */}
-        <section className='grid grid-cols-2 px-2 gap-2 w-full'>
+        <section className='grid px-2 gap-2 w-full'>
           <section className='grid grid-rows-reg w-full lg:justify-center text-center'>
             <div className='text-left h-fit w-full'>
               <h6>Quick Links</h6>
@@ -63,22 +63,6 @@ function FooterComponent() {
               })}
             </ul>
           </section>
-
-          <section className='grid grid-rows-reg justify-center text-center'>
-            <div className='text-left h-fit'>
-              <h6>Services</h6>
-              <div className='border-b-2 border-solid border-colour2 pt-2 mb-2'></div>
-            </div>
-            <ul className='text-left'>
-              {MainServicesArray.map((service, index) => {
-                return (
-                  <li key={index} className={`text-sm`}>
-                    {service.label}
-                  </li>
-                );
-              })}
-            </ul>
-          </section>
         </section>
 
         {/* Social media links */}
@@ -98,20 +82,10 @@ function FooterComponent() {
                 </p>
               </a>
             </div>
-            {/* Phone */}
-            <div>
-              <a href={`tel:${CompanyPhoneNumber}`}>
-                <p>
-                  <span className='font-semibold'>Phone: </span>+
-                  {CompanyPhoneNumber} (UK)
-                </p>
-              </a>
-            </div>
             {/* Short address */}
             <div>
               <p>
-                <span className='font-semibold'>Location: </span> Tavistock,
-                Devon, United Kingdom
+                <span className='font-semibold'>Location: </span> UK
               </p>
             </div>
             {/* Long address */}

@@ -1,4 +1,5 @@
 // Images
+import Mk1DiabloHornStyleRedAndBlackMain from '../../assets/images/products/phoenix-headdress-mk1-diablo-horn-style-red-and-black-main.png';
 import Mk1DiabloHornStyleRedAndBlack1 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-1.jpg';
 import Mk1DiabloHornStyleRedAndBlack2 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-2.jpg';
 import Mk1DiabloHornStyleRedAndBlack3 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-3.jpg';
@@ -10,6 +11,7 @@ import Mk1DiabloHornStyleRedAndBlack8 from '../../assets/images/headdress/phoeni
 import Mk1DiabloHornStyleRedAndBlack9 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-9.jpg';
 import Mk1DiabloHornStyleRedAndBlack10 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-10.jpg';
 // MK2 Firebird
+import Mk2FirebirdFeatheredHeaddressMain from '../../assets/images/products/phoenix-headdress-mk2-firebird-feathered-headdress-main.png';
 import Mk2FirebirdFeatheredHeaddress1 from '../../assets/images/headdress/phoenix-headdress-mk2-firebird-feathered-headdress-1.jpg';
 import Mk2FirebirdFeatheredHeaddress2 from '../../assets/images/headdress/phoenix-headdress-mk2-firebird-feathered-headdress-2.jpg';
 import Mk2FirebirdFeatheredHeaddress3 from '../../assets/images/headdress/phoenix-headdress-mk2-firebird-feathered-headdress-3.jpg';
@@ -20,6 +22,7 @@ import Mk2FirebirdFeatheredHeaddress7 from '../../assets/images/headdress/phoeni
 import Mk2FirebirdFeatheredHeaddress8 from '../../assets/images/headdress/phoenix-headdress-mk2-firebird-feathered-headdress-8.jpg';
 import Mk2FirebirdFeatheredHeaddress9 from '../../assets/images/headdress/phoenix-headdress-mk2-firebird-feathered-headdress-9.jpg';
 // MK3 Beserker
+import Mk3BeserkerOrangeFourHornsMain from '../../assets/images/products/phoenix-headdress-mk3-beserker-orange-four-horns-main.png';
 import Mk3BeserkerOrangeFourHorns1 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-1.jpg';
 import Mk3BeserkerOrangeFourHorns2 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-2.jpg';
 import Mk3BeserkerOrangeFourHorns3 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-3.jpg';
@@ -31,6 +34,7 @@ import Mk3BeserkerOrangeFourHorns8 from '../../assets/images/headdress/phoenix-h
 import Mk3BeserkerOrangeFourHorns9 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-9.jpg';
 import Mk3BeserkerOrangeFourHorns10 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-10.jpg';
 // MK5 Peacock
+import Mk5PeacockGreenFeatheredHeaddressMain from '../../assets/images/products/phoenix-headdress-mk5-peacock-green-feathered-headdress-main.png';
 import Mk5PeacockGreenFeatheredHeaddress1 from '../../assets/images/headdress/phoenix-headdress-mk5-peacock-green-feathered-headdress-1.jpg';
 import Mk5PeacockGreenFeatheredHeaddress2 from '../../assets/images/headdress/phoenix-headdress-mk5-peacock-green-feathered-headdress-2.jpg';
 import Mk5PeacockGreenFeatheredHeaddress3 from '../../assets/images/headdress/phoenix-headdress-mk5-peacock-green-feathered-headdress-3.jpg';
@@ -60,43 +64,47 @@ export const headdressGalleryGroupsArray = [
       'A fierce fusion of phoenix rebirth and diabolic power. Charred blacks and blazing reds coil into dramatic, horned silhouettes, radiating unstoppable resilience.',
     images: [
       {
-        name: 'Phoenix Headdress MK1',
+        name: 'MK1 Diablo',
+        src: Mk1DiabloHornStyleRedAndBlackMain,
+      },
+      {
+        name: 'MK1 Diablo',
         src: Mk1DiabloHornStyleRedAndBlack1,
       },
       {
-        name: 'Phoenix Headdress MK2',
+        name: 'Phoenix MK2',
         src: Mk1DiabloHornStyleRedAndBlack2,
       },
       {
-        name: 'Phoenix Headdress MK1',
+        name: 'MK1 Diablo',
         src: Mk1DiabloHornStyleRedAndBlack3,
       },
       {
-        name: 'Phoenix Headdress MK1',
+        name: 'MK1 Diablo',
         src: Mk1DiabloHornStyleRedAndBlack4,
       },
       {
-        name: 'Phoenix Headdress MK1',
+        name: 'MK1 Diablo',
         src: Mk1DiabloHornStyleRedAndBlack5,
       },
       {
-        name: 'Phoenix Headdress MK1',
+        name: 'MK1 Diablo',
         src: Mk1DiabloHornStyleRedAndBlack6,
       },
       {
-        name: 'Phoenix Headdress MK1',
+        name: 'MK1 Diablo',
         src: Mk1DiabloHornStyleRedAndBlack7,
       },
       {
-        name: 'Phoenix Headdress MK1',
+        name: 'MK1 Diablo',
         src: Mk1DiabloHornStyleRedAndBlack8,
       },
       {
-        name: 'Phoenix Headdress MK1',
+        name: 'MK1 Diablo',
         src: Mk1DiabloHornStyleRedAndBlack9,
       },
       {
-        name: 'Phoenix Headdress MK1',
+        name: 'MK1 Diablo',
         src: Mk1DiabloHornStyleRedAndBlack10,
       },
     ],
@@ -106,6 +114,7 @@ export const headdressGalleryGroupsArray = [
     description:
       'Bold color-blocking, electrified lines, and mythic energy flow through this avant-garde design. This piece channels futuristic fashion and divine rebellion.',
     images: [
+      { name: 'MK2 Firebird', src: Mk2FirebirdFeatheredHeaddressMain },
       { name: 'MK2 Firebird', src: Mk2FirebirdFeatheredHeaddress1 },
       { name: 'MK2 Firebird', src: Mk2FirebirdFeatheredHeaddress2 },
       { name: 'MK2 Firebird', src: Mk2FirebirdFeatheredHeaddress3 },
@@ -122,6 +131,7 @@ export const headdressGalleryGroupsArray = [
     description:
       'Unleashing primal fury through sharp edges and volcanic colorways, this four-horned design commands attention with bold structure and unapologetic presence.',
     images: [
+      { name: 'MK3 Beserker', src: Mk3BeserkerOrangeFourHornsMain },
       { name: 'MK3 Beserker', src: Mk3BeserkerOrangeFourHorns1 },
       { name: 'MK3 Beserker', src: Mk3BeserkerOrangeFourHorns2 },
       { name: 'MK3 Beserker', src: Mk3BeserkerOrangeFourHorns3 },
@@ -139,6 +149,7 @@ export const headdressGalleryGroupsArray = [
     description:
       'Elegant and hypnotic, this feathered masterpiece draws from the deep iridescence of peacock plumage. A regal silhouette for those who demand attention with grace.',
     images: [
+      { name: 'MK5 Peacock', src: Mk5PeacockGreenFeatheredHeaddressMain },
       { name: 'MK5 Peacock', src: Mk5PeacockGreenFeatheredHeaddress1 },
       { name: 'MK5 Peacock', src: Mk5PeacockGreenFeatheredHeaddress2 },
       { name: 'MK5 Peacock', src: Mk5PeacockGreenFeatheredHeaddress3 },
@@ -152,7 +163,7 @@ export const headdressGalleryGroupsArray = [
     description:
       'Radiating divine power, this white and gold design channels the majesty of celestial warriors. Clean symmetry and shining accents create a look of purity and strength.',
     images: [
-      { name: 'MK6 Main', src: Mk6ValkyrieWhiteAndGoldMain },
+      { name: 'MK6 Valkyrie', src: Mk6ValkyrieWhiteAndGoldMain },
       { name: 'MK6 Valkyrie', src: Mk6ValkyrieWhiteAndGold1 },
       { name: 'MK6 Valkyrie', src: Mk6ValkyrieWhiteAndGold2 },
       { name: 'MK6 Valkyrie', src: Mk6ValkyrieWhiteAndGold3 },
@@ -167,7 +178,7 @@ export const headdressGalleryGroupsArray = [
     description:
       'A vibrant celebration of pride, identity, and transformation. Inspired by the colours of the pride flag, this radiant headdress weaves together pink, white, and royal blue in a bold expression of self-love, unity, and unapologetic visibility.',
     images: [
-      { name: 'MK7 Megatran main', src: MK7MegatranMain },
+      { name: 'MK7 Megatran', src: MK7MegatranMain },
       { name: 'MK7 Megatran', src: MK7Megatran1 },
       { name: 'MK7 Megatran', src: MK7Megatran2 },
       { name: 'MK7 Megatran', src: MK7Megatran3 },
