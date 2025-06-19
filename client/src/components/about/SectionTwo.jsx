@@ -21,12 +21,10 @@ function SectionTwo() {
           >
             <div className='grid gap-y-4'>
               <h2 className='text-2xl lg:text-3xl font-semibold'>
-                In the Studio: Sweat, Spark & Joy
+                In the Studio: 
               </h2>
               <p className='text-base md:text-lg font-thin'>
-                The studio is where magic happens. It’s filled with laughter,
-                layers of feathers, stubborn materials, and the sound of music
-                that fuels creativity. Every creation is the result of hours of
+                Every creation is the result of hours of
                 focus, passion, and joy — a place where imperfection is part of
                 the process and playfulness fuels perfection.
               </p>

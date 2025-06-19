@@ -41,7 +41,7 @@ function GalleryPage() {
                   Gallery
                 </h1>
                 <p className='text-sm md:text-lg tracking-wide'>
-                  Custom Designs | Bold Statements | Eternal Flame
+                  Custom Designs | Bold Statements
                 </p>
               </div>
             </div>

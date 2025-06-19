@@ -8,11 +8,8 @@ function HomePageHeader() {
       <div className='grid gap-y-8 py-16 md:py-24 lg:py-36'>
         <div className='grid h-fit gap-y-2'>
           <h1 className='text-2xl md:text-6xl font-bold uppercase'>Phoenix Headdress</h1>
-          <p className='text-lg md:text-2xl italic'>
-            Rising in Art, Rebirth in Style
-          </p>
           <p className='text-sm md:text-lg tracking-wide'>
-            Custom Designs | Bold Statements | Eternal Flame
+            Custom Designs | Bold Statements
           </p>
         </div>
 
