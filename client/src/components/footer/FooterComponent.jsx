@@ -4,17 +4,14 @@ import { Link } from 'react-router-dom';
 import {
   CompanyTagLine,
   CompanyName,
-  CompanyPhoneNumber,
   CompanyEmailAddress,
 } from '../../utils/Constants';
 // Components
 import FooterSocialCTA from './FooterSocialCTA';
-// Images
-import CompanyMainLogo from '../../assets/images/logos/byte-toast-studio-logo-web-developer-transparent-svg.svg';
 // Data
 import { FooterLinksArray } from '../../utils/data/FooterData';
-import { MainServicesArray } from '../../utils/data/CompanyData';
-import { FaPhoenixSquadron } from 'react-icons/fa';
+// Images
+import PhoenixLogo from '../../assets/images/logos/phoenix-headdress-logo.svg';
 
 function FooterComponent() {
   return (
@@ -23,9 +20,24 @@ function FooterComponent() {
         {/* Logo section */}
         <section className='grid h-fit my-auto gap-4 py-2 w-full'>
           <div className='grid items-center justify-center'>
-            <div className={`grid grid-flow-col gap-x-2 items-center`}>
-              <FaPhoenixSquadron className='text-2xl' />{' '}
-              <span>{CompanyName}</span>
+            <div
+              className={`grid grid-flow-col gap-x-2 items-center`}
+            >
+              <figure
+                role='img'
+                aria-label='Phoenix Headdress Logo'
+                className='w-8 h-8'
+              >
+<img
+  src={PhoenixLogo}
+  alt="Phoenix Headdress Logo"
+  title="Phoenix Headdress Homepage"
+  className="w-8 h-8 object-contain"
+/>
+              </figure>
+              <span className='sr-only lg:not-sr-only' aria-hidden='false'>
+                {CompanyName}
+              </span>
             </div>
           </div>
           <div className='text-center'>

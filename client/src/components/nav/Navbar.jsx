@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 // Icons
-import { IoMdMenu, IoMdClose } from 'react-icons/io';
+import { IoMdMenu } from 'react-icons/io';
 import { IoCloseOutline } from 'react-icons/io5';
 // Context
 import { useUser } from '../../context/UserContext';
 // Constants
+import { HOME_PAGE_URL } from '../../utils/Routes';
+import { CompanyName } from '../../utils/Constants';
 // Data
 import { getNavLinkItemsArray } from '../../utils/data/NavData';
 // Images
-import { FaPhoenixSquadron } from 'react-icons/fa';
-import { HOME_PAGE_URL } from '../../utils/Routes';
-import { CompanyName } from '../../utils/Constants';
+import PhoenixLogo from '../../assets/images/logos/phoenix-headdress-logo.svg';
 
 function Navbar() {
   const { user } = useUser();
@@ -53,8 +53,21 @@ function Navbar() {
               to={HOME_PAGE_URL}
               className={`grid grid-flow-col gap-x-2 items-center`}
             >
-              <FaPhoenixSquadron className='text-2xl' />{' '}
-              <span>{CompanyName}</span>
+              <figure
+                role='img'
+                aria-label='Phoenix Headdress Logo'
+                className='w-8 h-8'
+              >
+                <img
+                  src={PhoenixLogo}
+                  alt='Phoenix Headdress Logo'
+                  title='Phoenix Headdress Homepage'
+                  className='w-8 h-8 min-w-8 z-50 object-contain'
+                />
+              </figure>
+              <span className='sr-only lg:not-sr-only' aria-hidden='false'>
+                {CompanyName}
+              </span>
             </NavLink>
           </section>
         </section>
