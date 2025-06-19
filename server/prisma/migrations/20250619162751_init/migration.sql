@@ -26,7 +26,6 @@ CREATE TABLE "ContactForm" (
     "phoneNumber" TEXT NOT NULL,
     "location" TEXT NOT NULL,
     "businessName" TEXT NOT NULL,
-    "projectType" TEXT NOT NULL,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3),
 

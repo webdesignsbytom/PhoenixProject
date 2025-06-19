@@ -26,19 +26,16 @@ model User {
 }
 
 model ContactForm {
-  id              String      @id @default(uuid())
-  name            String
-  email           String
-  contactNumber   String
-  hardLimits      String
-  interests       String
-  healthConcerns  String
-  sessionDateTime String
-  sessionLength   String
-  identity        String
-  experienceLevel String
-  recentReference String
-  createdAt       DateTime @default(now())
+  id           String    @id @default(uuid())
+  firstName    String
+  lastName     String
+  email        String
+  message      String
+  phoneNumber  String
+  location     String
+  businessName String
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime? @updatedAt
 }
 
 // EVENTS
