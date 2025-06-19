@@ -1,152 +1,177 @@
-import IMG_20250608_WA0000 from '../../assets/images/headdress/IMG-20250608-WA0000.jpg';
-import IMG_20250608_WA0001 from '../../assets/images/headdress/IMG-20250608-WA0001.jpg';
-import IMG_20250608_WA0002 from '../../assets/images/headdress/IMG-20250608-WA0002.jpg';
-import IMG_20250608_WA0003 from '../../assets/images/headdress/IMG-20250608-WA0003.jpg';
-import IMG_20250608_WA0004 from '../../assets/images/headdress/IMG-20250608-WA0004.jpg';
-import IMG_20250608_WA0005 from '../../assets/images/headdress/IMG-20250608-WA0005.jpg';
-import IMG_20250608_WA0006 from '../../assets/images/headdress/IMG-20250608-WA0006.jpg';
-import IMG_20250608_WA0007 from '../../assets/images/headdress/IMG-20250608-WA0007.jpg';
-import IMG_20250608_WA0008 from '../../assets/images/headdress/IMG-20250608-WA0008.jpg';
-import IMG_20250608_WA0009 from '../../assets/images/headdress/IMG-20250608-WA0009.jpg';
-import IMG_20250608_WA0010 from '../../assets/images/headdress/IMG-20250608-WA0010.jpg';
-import IMG_20250608_WA0011 from '../../assets/images/headdress/IMG-20250608-WA0011.jpg';
-import IMG_20250608_WA0012 from '../../assets/images/headdress/IMG-20250608-WA0012.jpg';
-import IMG_20250608_WA0013 from '../../assets/images/headdress/IMG-20250608-WA0013.jpg';
-import IMG_20250608_WA0014 from '../../assets/images/headdress/IMG-20250608-WA0014.jpg';
-import IMG_20250608_WA0015 from '../../assets/images/headdress/IMG-20250608-WA0015.jpg';
-import IMG_20250608_WA0016 from '../../assets/images/headdress/IMG-20250608-WA0016.jpg';
-import IMG_20250608_WA0017 from '../../assets/images/headdress/IMG-20250608-WA0017.jpg';
-import IMG_20250608_WA0027 from '../../assets/images/headdress/IMG-20250608-WA0027.jpg';
-import IMG_20250608_WA0028 from '../../assets/images/headdress/IMG-20250608-WA0028.jpg';
-import IMG_20250608_WA0029 from '../../assets/images/headdress/IMG-20250608-WA0029.jpg';
-import IMG_20250608_WA0030 from '../../assets/images/headdress/IMG-20250608-WA0030.jpg';
-import IMG_20250608_WA0031 from '../../assets/images/headdress/IMG-20250608-WA0031.jpg';
-import IMG_20250608_WA0032 from '../../assets/images/headdress/IMG-20250608-WA0032.jpg';
-import IMG_20250608_WA0033 from '../../assets/images/headdress/IMG-20250608-WA0033.jpg';
-import IMG_20250608_WA0034 from '../../assets/images/headdress/IMG-20250608-WA0034.jpg';
-import IMG_20250608_WA0035 from '../../assets/images/headdress/IMG-20250608-WA0035.jpg';
-import IMG_20250608_WA0036 from '../../assets/images/headdress/IMG-20250608-WA0036.jpg';
-import IMG_20250608_WA0037 from '../../assets/images/headdress/IMG-20250608-WA0037.jpg';
-import IMG_20250608_WA0038 from '../../assets/images/headdress/IMG-20250608-WA0038.jpg';
-import IMG_20250608_WA0039 from '../../assets/images/headdress/IMG-20250608-WA0039.jpg';
-import IMG_20250608_WA0040 from '../../assets/images/headdress/IMG-20250608-WA0040.jpg';
-import IMG_20250608_WA0041 from '../../assets/images/headdress/IMG-20250608-WA0041.jpg';
-import IMG_20250608_WA0042 from '../../assets/images/headdress/IMG-20250608-WA0042.jpg';
-import IMG_20250608_WA0043 from '../../assets/images/headdress/IMG-20250608-WA0043.jpg';
-import IMG_20250608_WA0044 from '../../assets/images/headdress/IMG-20250608-WA0044.jpg';
-import IMG_20250608_WA0045 from '../../assets/images/headdress/IMG-20250608-WA0045.jpg';
-import IMG_20250608_WA0046 from '../../assets/images/headdress/IMG-20250608-WA0046.jpg';
-import IMG_20250608_WA0047 from '../../assets/images/headdress/IMG-20250608-WA0047.jpg';
-import IMG_20250608_WA0048 from '../../assets/images/headdress/IMG-20250608-WA0048.jpg';
-import IMG_20250608_WA0049 from '../../assets/images/headdress/IMG-20250608-WA0049.jpg';
-import IMG_20250608_WA0050 from '../../assets/images/headdress/IMG-20250608-WA0050.jpg';
-import IMG_20250608_WA0051 from '../../assets/images/headdress/IMG-20250608-WA0051.jpg';
-import IMG_20250608_WA0052 from '../../assets/images/headdress/IMG-20250608-WA0052.jpg';
-import IMG_20250608_WA0053 from '../../assets/images/headdress/IMG-20250608-WA0053.jpg';
-import IMG_20250608_WA0054 from '../../assets/images/headdress/IMG-20250608-WA0054.jpg';
-import IMG_20250608_WA0055 from '../../assets/images/headdress/IMG-20250608-WA0055.jpg';
-import IMG_20250608_WA0056 from '../../assets/images/headdress/IMG-20250608-WA0056.jpg';
-import IMG_20250608_WA0057 from '../../assets/images/headdress/IMG-20250608-WA0057.jpg';
-import IMG_20250608_WA0058 from '../../assets/images/headdress/IMG-20250608-WA0058.jpg';
-import IMG_20250608_WA0059 from '../../assets/images/headdress/IMG-20250608-WA0059.jpg';
-import IMG_20250608_WA0060 from '../../assets/images/headdress/IMG-20250608-WA0060.jpg';
-import IMG_20250608_WA0061 from '../../assets/images/headdress/IMG-20250608-WA0061.jpg';
-import IMG_20250608_WA0062 from '../../assets/images/headdress/IMG-20250608-WA0062.jpg';
-import IMG_20250608_WA0063 from '../../assets/images/headdress/IMG-20250608-WA0063.jpg';
-import IMG_20250608_WA0064 from '../../assets/images/headdress/IMG-20250608-WA0064.jpg';
-import IMG_20250608_WA0065 from '../../assets/images/headdress/IMG-20250608-WA0065.jpg';
-import IMG_20250608_WA0066 from '../../assets/images/headdress/IMG-20250608-WA0066.jpg';
-import IMG_20250608_WA0067 from '../../assets/images/headdress/IMG-20250608-WA0067.jpg';
-import IMG_20250608_WA0068 from '../../assets/images/headdress/IMG-20250608-WA0068.jpg';
-import IMG_20250608_WA0069 from '../../assets/images/headdress/IMG-20250608-WA0069.jpg';
-import IMG_20250608_WA0070 from '../../assets/images/headdress/IMG-20250608-WA0070.jpg';
-import IMG_20250608_WA0071 from '../../assets/images/headdress/IMG-20250608-WA0071.jpg';
-import IMG_20250608_WA0072 from '../../assets/images/headdress/IMG-20250608-WA0072.jpg';
-import IMG_20250608_WA0073 from '../../assets/images/headdress/IMG-20250608-WA0073.jpg';
-import IMG_20250608_WA0074 from '../../assets/images/headdress/IMG-20250608-WA0074.jpg';
-import ProductBlue from '../../assets/images/products/phoenix-headdress-product-no-background-pink-blue-3.png';
-import ProductWhite from '../../assets/images/products/phoenix-headdress-product-no-background-white-and-gold-3.png';
+// Images
+import Mk1DiabloHornStyleRedAndBlack1 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-1.jpg';
+import Mk1DiabloHornStyleRedAndBlack2 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-2.jpg';
+import Mk1DiabloHornStyleRedAndBlack3 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-3.jpg';
+import Mk1DiabloHornStyleRedAndBlack4 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-4.jpg';
+import Mk1DiabloHornStyleRedAndBlack5 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-5.jpg';
+import Mk1DiabloHornStyleRedAndBlack6 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-6.jpg';
+import Mk1DiabloHornStyleRedAndBlack7 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-7.jpg';
+import Mk1DiabloHornStyleRedAndBlack8 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-8.jpg';
+import Mk1DiabloHornStyleRedAndBlack9 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-9.jpg';
+import Mk1DiabloHornStyleRedAndBlack10 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-10.jpg';
+// MK2 Firebird
+import Mk2FirebirdFeatheredHeaddress1 from '../../assets/images/headdress/phoenix-headdress-mk2-firebird-feathered-headdress-1.jpg';
+import Mk2FirebirdFeatheredHeaddress2 from '../../assets/images/headdress/phoenix-headdress-mk2-firebird-feathered-headdress-2.jpg';
+import Mk2FirebirdFeatheredHeaddress3 from '../../assets/images/headdress/phoenix-headdress-mk2-firebird-feathered-headdress-3.jpg';
+import Mk2FirebirdFeatheredHeaddress4 from '../../assets/images/headdress/phoenix-headdress-mk2-firebird-feathered-headdress-4.jpg';
+import Mk2FirebirdFeatheredHeaddress5 from '../../assets/images/headdress/phoenix-headdress-mk2-firebird-feathered-headdress-5.jpg';
+import Mk2FirebirdFeatheredHeaddress6 from '../../assets/images/headdress/phoenix-headdress-mk2-firebird-feathered-headdress-6.jpg';
+import Mk2FirebirdFeatheredHeaddress7 from '../../assets/images/headdress/phoenix-headdress-mk2-firebird-feathered-headdress-7.jpg';
+import Mk2FirebirdFeatheredHeaddress8 from '../../assets/images/headdress/phoenix-headdress-mk2-firebird-feathered-headdress-8.jpg';
+import Mk2FirebirdFeatheredHeaddress9 from '../../assets/images/headdress/phoenix-headdress-mk2-firebird-feathered-headdress-9.jpg';
+// MK3 Beserker
+import Mk3BeserkerOrangeFourHorns1 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-1.jpg';
+import Mk3BeserkerOrangeFourHorns2 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-2.jpg';
+import Mk3BeserkerOrangeFourHorns3 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-3.jpg';
+import Mk3BeserkerOrangeFourHorns4 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-4.jpg';
+import Mk3BeserkerOrangeFourHorns5 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-5.jpg';
+import Mk3BeserkerOrangeFourHorns6 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-6.jpg';
+import Mk3BeserkerOrangeFourHorns7 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-7.jpg';
+import Mk3BeserkerOrangeFourHorns8 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-8.jpg';
+import Mk3BeserkerOrangeFourHorns9 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-9.jpg';
+import Mk3BeserkerOrangeFourHorns10 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-10.jpg';
+// MK5 Peacock
+import Mk5PeacockGreenFeatheredHeaddress1 from '../../assets/images/headdress/phoenix-headdress-mk5-peacock-green-feathered-headdress-1.jpg';
+import Mk5PeacockGreenFeatheredHeaddress2 from '../../assets/images/headdress/phoenix-headdress-mk5-peacock-green-feathered-headdress-2.jpg';
+import Mk5PeacockGreenFeatheredHeaddress3 from '../../assets/images/headdress/phoenix-headdress-mk5-peacock-green-feathered-headdress-3.jpg';
+import Mk5PeacockGreenFeatheredHeaddress4 from '../../assets/images/headdress/phoenix-headdress-mk5-peacock-green-feathered-headdress-4.jpg';
+import Mk5PeacockGreenFeatheredHeaddress5 from '../../assets/images/headdress/phoenix-headdress-mk5-peacock-green-feathered-headdress-5.jpg';
+import Mk5PeacockGreenFeatheredHeaddress6 from '../../assets/images/headdress/phoenix-headdress-mk5-peacock-green-feathered-headdress-6.jpg';
+// MK6 Valkyrie
+import Mk6ValkyrieWhiteAndGoldMain from '../../assets/images/products/phoenix-headdress-product-no-background-white-and-gold-3.png';
+import Mk6ValkyrieWhiteAndGold1 from '../../assets/images/headdress/phoenix-headdress-mk6-valkyrie-white-and-gold-1.jpg';
+import Mk6ValkyrieWhiteAndGold2 from '../../assets/images/headdress/phoenix-headdress-mk6-valkyrie-white-and-gold-2.jpg';
+import Mk6ValkyrieWhiteAndGold3 from '../../assets/images/headdress/phoenix-headdress-mk6-valkyrie-white-and-gold-3.jpg';
+import Mk6ValkyrieWhiteAndGold4 from '../../assets/images/headdress/phoenix-headdress-mk6-valkyrie-white-and-gold-4.jpg';
+import Mk6ValkyrieWhiteAndGold5 from '../../assets/images/headdress/phoenix-headdress-mk6-valkyrie-white-and-gold-5.jpg';
+import Mk6ValkyrieWhiteAndGold6 from '../../assets/images/headdress/phoenix-headdress-mk6-valkyrie-white-and-gold-6.jpg';
+import Mk6ValkyrieWhiteAndGold7 from '../../assets/images/headdress/phoenix-headdress-mk6-valkyrie-white-and-gold-7.jpg';
+// MK7
+import MK7MegatranMain from '../../assets/images/products/phoenix-headdress-product-no-background-pink-blue-3.png';
+import MK7Megatran1 from '../../assets/images/headdress/phoenix-headdress-mk7-megatran-pride-trans-flat-style-1.jpg';
+import MK7Megatran2 from '../../assets/images/headdress/phoenix-headdress-mk7-megatran-pride-trans-flat-style-2.jpg';
+import MK7Megatran3 from '../../assets/images/headdress/phoenix-headdress-mk7-megatran-pride-trans-flat-style-3.jpg';
+import MK7Megatran4 from '../../assets/images/headdress/phoenix-headdress-mk7-megatran-pride-trans-flat-style-4.jpg';
 
 export const headdressGalleryGroupsArray = [
   {
-    title: 'Headdress One: Celestial Fire',
+    title: 'MK1: Diablo',
     description:
-      'Inspired by cosmic flame and divine energy, this piece erupts with pinks, whites, and royal blues. A radiant tribute to rebirth and bold femininity.',
+      'A fierce fusion of phoenix rebirth and diabolic power. Charred blacks and blazing reds coil into dramatic, horned silhouettes, radiating unstoppable resilience.',
     images: [
-      { name: 'cutout main', src: ProductBlue },
-      { name: 'IMG-20250608-WA0000', src: IMG_20250608_WA0000 },
-      { name: 'IMG-20250608-WA0001', src: IMG_20250608_WA0001 },
-      { name: 'IMG-20250608-WA0002', src: IMG_20250608_WA0002 },
-      { name: 'IMG-20250608-WA0003', src: IMG_20250608_WA0003 },
+      {
+        name: 'Phoenix Headdress MK1',
+        src: Mk1DiabloHornStyleRedAndBlack1,
+      },
+      {
+        name: 'Phoenix Headdress MK2',
+        src: Mk1DiabloHornStyleRedAndBlack2,
+      },
+      {
+        name: 'Phoenix Headdress MK1',
+        src: Mk1DiabloHornStyleRedAndBlack3,
+      },
+      {
+        name: 'Phoenix Headdress MK1',
+        src: Mk1DiabloHornStyleRedAndBlack4,
+      },
+      {
+        name: 'Phoenix Headdress MK1',
+        src: Mk1DiabloHornStyleRedAndBlack5,
+      },
+      {
+        name: 'Phoenix Headdress MK1',
+        src: Mk1DiabloHornStyleRedAndBlack6,
+      },
+      {
+        name: 'Phoenix Headdress MK1',
+        src: Mk1DiabloHornStyleRedAndBlack7,
+      },
+      {
+        name: 'Phoenix Headdress MK1',
+        src: Mk1DiabloHornStyleRedAndBlack8,
+      },
+      {
+        name: 'Phoenix Headdress MK1',
+        src: Mk1DiabloHornStyleRedAndBlack9,
+      },
+      {
+        name: 'Phoenix Headdress MK1',
+        src: Mk1DiabloHornStyleRedAndBlack10,
+      },
     ],
   },
   {
-    title: 'Headdress Two: Serpent Bloom',
-    description:
-      'A jungle-inspired statement piece blending deep greens and metallics. Sharp, elegant, and alive with movement — this design channels wild nature and ancient power.',
-    images: [
-      { name: 'white main', src: ProductWhite },
-      { name: 'IMG-20250608-WA0011', src: IMG_20250608_WA0011 },
-      { name: 'IMG-20250608-WA0012', src: IMG_20250608_WA0012 },
-      { name: 'IMG-20250608-WA0013', src: IMG_20250608_WA0013 },
-      { name: 'IMG-20250608-WA0014', src: IMG_20250608_WA0014 },
-      { name: 'IMG-20250608-WA0015', src: IMG_20250608_WA0015 },
-      { name: 'IMG-20250608-WA0016', src: IMG_20250608_WA0016 },
-      { name: 'IMG-20250608-WA0017', src: IMG_20250608_WA0017 },
-    ],
-  },
-  {
-    title: 'Headdress Three: Mirror Spirit',
-    description:
-      'Reflective and regal, this silver-heavy piece merges ceremonial shape with cyber-fantasy energy. Clean cuts, dazzling layers, and powerfully symmetrical styling.',
-    images: [
-      { name: 'IMG-20250608-WA0029', src: IMG_20250608_WA0029 },
-      { name: 'IMG-20250608-WA0030', src: IMG_20250608_WA0030 },
-      { name: 'IMG-20250608-WA0031', src: IMG_20250608_WA0031 },
-      { name: 'IMG-20250608-WA0032', src: IMG_20250608_WA0032 },
-      { name: 'IMG-20250608-WA0033', src: IMG_20250608_WA0033 },
-      { name: 'IMG-20250608-WA0034', src: IMG_20250608_WA0034 },
-      { name: 'IMG-20250608-WA0035', src: IMG_20250608_WA0035 },
-      { name: 'IMG-20250608-WA0036', src: IMG_20250608_WA0036 },
-      { name: 'IMG-20250608-WA0037', src: IMG_20250608_WA0037 },
-    ],
-  },
-  {
-    title: 'Headdress Four: Jungle Sovereign',
-    description:
-      'Dominant textures and tribal symmetry combine in this crown of emerald feathers and golden spikes. A piece made for movement and primal expression.',
-    images: [
-      { name: 'IMG-20250608-WA0043', src: IMG_20250608_WA0043 },
-      { name: 'IMG-20250608-WA0044', src: IMG_20250608_WA0044 },
-      { name: 'IMG-20250608-WA0045', src: IMG_20250608_WA0045 },
-      { name: 'IMG-20250608-WA0046', src: IMG_20250608_WA0046 },
-      { name: 'IMG-20250608-WA0047', src: IMG_20250608_WA0047 },
-      { name: 'IMG-20250608-WA0048', src: IMG_20250608_WA0048 },
-      { name: 'IMG-20250608-WA0049', src: IMG_20250608_WA0049 },
-      { name: 'IMG-20250608-WA0050', src: IMG_20250608_WA0050 },
-      { name: 'IMG-20250608-WA0051', src: IMG_20250608_WA0051 },
-      { name: 'IMG-20250608-WA0052', src: IMG_20250608_WA0052 },
-    ],
-  },
-  {
-    title: 'Headdress Five: Divine Voltage',
+    title: 'MK2: Firebird',
     description:
       'Bold color-blocking, electrified lines, and mythic energy flow through this avant-garde design. This piece channels futuristic fashion and divine rebellion.',
     images: [
-      { name: 'IMG-20250608-WA0053', src: IMG_20250608_WA0053 },
-      { name: 'IMG-20250608-WA0054', src: IMG_20250608_WA0054 },
-      { name: 'IMG-20250608-WA0055', src: IMG_20250608_WA0055 },
+      { name: 'MK2 Firebird', src: Mk2FirebirdFeatheredHeaddress1 },
+      { name: 'MK2 Firebird', src: Mk2FirebirdFeatheredHeaddress2 },
+      { name: 'MK2 Firebird', src: Mk2FirebirdFeatheredHeaddress3 },
+      { name: 'MK2 Firebird', src: Mk2FirebirdFeatheredHeaddress4 },
+      { name: 'MK2 Firebird', src: Mk2FirebirdFeatheredHeaddress5 },
+      { name: 'MK2 Firebird', src: Mk2FirebirdFeatheredHeaddress6 },
+      { name: 'MK2 Firebird', src: Mk2FirebirdFeatheredHeaddress7 },
+      { name: 'MK2 Firebird', src: Mk2FirebirdFeatheredHeaddress8 },
+      { name: 'MK2 Firebird', src: Mk2FirebirdFeatheredHeaddress9 },
     ],
   },
   {
-    title: 'Headdress Six: New Voltage',
+    title: 'MK3: Beserker',
     description:
-      'Bold color-blocking, electrified lines, and mythic energy flow through this avant-garde design. This piece channels futuristic fashion and divine rebellion.',
+      'Unleashing primal fury through sharp edges and volcanic colorways, this four-horned design commands attention with bold structure and unapologetic presence.',
     images: [
-      { name: 'IMG-20250608-WA0056', src: IMG_20250608_WA0056 },
-      { name: 'IMG-20250608-WA0072', src: IMG_20250608_WA0072 },
-      { name: 'IMG-20250608-WA0073', src: IMG_20250608_WA0073 },
-      { name: 'IMG-20250608-WA0074', src: IMG_20250608_WA0074 },
+      { name: 'MK3 Beserker', src: Mk3BeserkerOrangeFourHorns1 },
+      { name: 'MK3 Beserker', src: Mk3BeserkerOrangeFourHorns2 },
+      { name: 'MK3 Beserker', src: Mk3BeserkerOrangeFourHorns3 },
+      { name: 'MK3 Beserker', src: Mk3BeserkerOrangeFourHorns4 },
+      { name: 'MK3 Beserker', src: Mk3BeserkerOrangeFourHorns5 },
+      { name: 'MK3 Beserker', src: Mk3BeserkerOrangeFourHorns6 },
+      { name: 'MK3 Beserker', src: Mk3BeserkerOrangeFourHorns7 },
+      { name: 'MK3 Beserker', src: Mk3BeserkerOrangeFourHorns8 },
+      { name: 'MK3 Beserker', src: Mk3BeserkerOrangeFourHorns9 },
+      { name: 'MK3 Beserker', src: Mk3BeserkerOrangeFourHorns10 },
+    ],
+  },
+  {
+    title: 'MK5: Peacock',
+    description:
+      'Elegant and hypnotic, this feathered masterpiece draws from the deep iridescence of peacock plumage. A regal silhouette for those who demand attention with grace.',
+    images: [
+      { name: 'MK5 Peacock', src: Mk5PeacockGreenFeatheredHeaddress1 },
+      { name: 'MK5 Peacock', src: Mk5PeacockGreenFeatheredHeaddress2 },
+      { name: 'MK5 Peacock', src: Mk5PeacockGreenFeatheredHeaddress3 },
+      { name: 'MK5 Peacock', src: Mk5PeacockGreenFeatheredHeaddress4 },
+      { name: 'MK5 Peacock', src: Mk5PeacockGreenFeatheredHeaddress5 },
+      { name: 'MK5 Peacock', src: Mk5PeacockGreenFeatheredHeaddress6 },
+    ],
+  },
+  {
+    title: 'MK6: Valkyrie',
+    description:
+      'Radiating divine power, this white and gold design channels the majesty of celestial warriors. Clean symmetry and shining accents create a look of purity and strength.',
+    images: [
+      { name: 'MK6 Main', src: Mk6ValkyrieWhiteAndGoldMain },
+      { name: 'MK6 Valkyrie', src: Mk6ValkyrieWhiteAndGold1 },
+      { name: 'MK6 Valkyrie', src: Mk6ValkyrieWhiteAndGold2 },
+      { name: 'MK6 Valkyrie', src: Mk6ValkyrieWhiteAndGold3 },
+      { name: 'MK6 Valkyrie', src: Mk6ValkyrieWhiteAndGold4 },
+      { name: 'MK6 Valkyrie', src: Mk6ValkyrieWhiteAndGold5 },
+      { name: 'MK6 Valkyrie', src: Mk6ValkyrieWhiteAndGold6 },
+      { name: 'MK6 Valkyrie', src: Mk6ValkyrieWhiteAndGold7 },
+    ],
+  },
+  {
+    title: 'MK7: Megatran',
+    description:
+      'A vibrant celebration of pride, identity, and transformation. Inspired by the colours of the pride flag, this radiant headdress weaves together pink, white, and royal blue in a bold expression of self-love, unity, and unapologetic visibility.',
+    images: [
+      { name: 'MK7 Megatran main', src: MK7MegatranMain },
+      { name: 'MK7 Megatran', src: MK7Megatran1 },
+      { name: 'MK7 Megatran', src: MK7Megatran2 },
+      { name: 'MK7 Megatran', src: MK7Megatran3 },
+      { name: 'MK7 Megatran', src: MK7Megatran4 },
     ],
   },
 ];

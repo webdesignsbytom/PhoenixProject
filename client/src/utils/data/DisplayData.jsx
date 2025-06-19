@@ -1,21 +1,20 @@
-import IMG_20250608_WA0000 from '../../assets/images/headdress/IMG-20250608-WA0000.jpg';
-import IMG_20250608_WA0001 from '../../assets/images/headdress/IMG-20250608-WA0001.jpg';
-import IMG_20250608_WA0002 from '../../assets/images/headdress/IMG-20250608-WA0002.jpg';
-import IMG_20250608_WA0003 from '../../assets/images/headdress/IMG-20250608-WA0003.jpg';
-import IMG_20250608_WA0004 from '../../assets/images/headdress/IMG-20250608-WA0004.jpg';
-import IMG_20250608_WA0005 from '../../assets/images/headdress/IMG-20250608-WA0005.jpg';
-import IMG_20250608_WA0006 from '../../assets/images/headdress/IMG-20250608-WA0006.jpg';
-import IMG_20250608_WA0007 from '../../assets/images/headdress/IMG-20250608-WA0007.jpg';
-import IMG_20250608_WA0008 from '../../assets/images/headdress/IMG-20250608-WA0008.jpg';
-import IMG_20250608_WA0009 from '../../assets/images/headdress/IMG-20250608-WA0009.jpg';
-import IMG_20250608_WA0010 from '../../assets/images/headdress/IMG-20250608-WA0010.jpg';
-import IMG_20250608_WA0011 from '../../assets/images/headdress/IMG-20250608-WA0011.jpg';
-import IMG_20250608_WA0012 from '../../assets/images/headdress/IMG-20250608-WA0012.jpg';
-import IMG_20250608_WA0013 from '../../assets/images/headdress/IMG-20250608-WA0013.jpg';
-import IMG_20250608_WA0014 from '../../assets/images/headdress/IMG-20250608-WA0014.jpg';
-import IMG_20250608_WA0015 from '../../assets/images/headdress/IMG-20250608-WA0015.jpg';
-import IMG_20250608_WA0016 from '../../assets/images/headdress/IMG-20250608-WA0016.jpg';
-import IMG_20250608_WA0017 from '../../assets/images/headdress/IMG-20250608-WA0017.jpg';
+import MK7Megatran1 from '../../assets/images/headdress/phoenix-headdress-mk7-megatran-pride-trans-flat-style-1.jpg';
+import MK7Megatran2 from '../../assets/images/headdress/phoenix-headdress-mk7-megatran-pride-trans-flat-style-2.jpg';
+import MK7Megatran3 from '../../assets/images/headdress/phoenix-headdress-mk7-megatran-pride-trans-flat-style-3.jpg';
+import MK7Megatran4 from '../../assets/images/headdress/phoenix-headdress-mk7-megatran-pride-trans-flat-style-4.jpg';
+import Mk5PeacockGreenFeatheredHeaddress1 from '../../assets/images/headdress/phoenix-headdress-mk5-peacock-green-feathered-headdress-1.jpg';
+import Mk5PeacockGreenFeatheredHeaddress2 from '../../assets/images/headdress/phoenix-headdress-mk5-peacock-green-feathered-headdress-2.jpg';
+import Mk5PeacockGreenFeatheredHeaddress3 from '../../assets/images/headdress/phoenix-headdress-mk5-peacock-green-feathered-headdress-3.jpg';
+import Mk5PeacockGreenFeatheredHeaddress4 from '../../assets/images/headdress/phoenix-headdress-mk5-peacock-green-feathered-headdress-4.jpg';
+import Mk5PeacockGreenFeatheredHeaddress5 from '../../assets/images/headdress/phoenix-headdress-mk5-peacock-green-feathered-headdress-5.jpg';
+import Mk5PeacockGreenFeatheredHeaddress6 from '../../assets/images/headdress/phoenix-headdress-mk5-peacock-green-feathered-headdress-6.jpg';
+import Mk6ValkyrieWhiteAndGold1 from '../../assets/images/headdress/phoenix-headdress-mk6-valkyrie-white-and-gold-1.jpg';
+import Mk6ValkyrieWhiteAndGold2 from '../../assets/images/headdress/phoenix-headdress-mk6-valkyrie-white-and-gold-2.jpg';
+import Mk6ValkyrieWhiteAndGold3 from '../../assets/images/headdress/phoenix-headdress-mk6-valkyrie-white-and-gold-3.jpg';
+import Mk6ValkyrieWhiteAndGold4 from '../../assets/images/headdress/phoenix-headdress-mk6-valkyrie-white-and-gold-4.jpg';
+import Mk6ValkyrieWhiteAndGold5 from '../../assets/images/headdress/phoenix-headdress-mk6-valkyrie-white-and-gold-5.jpg';
+import Mk6ValkyrieWhiteAndGold6 from '../../assets/images/headdress/phoenix-headdress-mk6-valkyrie-white-and-gold-6.jpg';
+import Mk6ValkyrieWhiteAndGold7 from '../../assets/images/headdress/phoenix-headdress-mk6-valkyrie-white-and-gold-7.jpg';
 import IMG_20250608_WA0027 from '../../assets/images/headdress/IMG-20250608-WA0027.jpg';
 import IMG_20250608_WA0028 from '../../assets/images/headdress/IMG-20250608-WA0028.jpg';
 import IMG_20250608_WA0029 from '../../assets/images/headdress/IMG-20250608-WA0029.jpg';
@@ -64,26 +63,35 @@ import IMG_20250608_WA0071 from '../../assets/images/headdress/IMG-20250608-WA00
 import IMG_20250608_WA0072 from '../../assets/images/headdress/IMG-20250608-WA0072.jpg';
 import IMG_20250608_WA0073 from '../../assets/images/headdress/IMG-20250608-WA0073.jpg';
 import IMG_20250608_WA0074 from '../../assets/images/headdress/IMG-20250608-WA0074.jpg';
+import Mk1DiabloHornStyleRedAndBlack1 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-1.jpg';
+import Mk1DiabloHornStyleRedAndBlack2 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-2.jpg';
+import Mk1DiabloHornStyleRedAndBlack3 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-3.jpg';
+import Mk1DiabloHornStyleRedAndBlack4 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-4.jpg';
+import Mk1DiabloHornStyleRedAndBlack5 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-5.jpg';
+import Mk1DiabloHornStyleRedAndBlack6 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-6.jpg';
+import Mk1DiabloHornStyleRedAndBlack7 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-7.jpg';
+import Mk1DiabloHornStyleRedAndBlack8 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-8.jpg';
+import Mk1DiabloHornStyleRedAndBlack9 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-9.jpg';
+import Mk1DiabloHornStyleRedAndBlack10 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-10.jpg';
 
 export const headdressImagesArray = [
-  { name: 'IMG-20250608-WA0000', src: IMG_20250608_WA0000 },
-  { name: 'IMG-20250608-WA0001', src: IMG_20250608_WA0001 },
-  { name: 'IMG-20250608-WA0002', src: IMG_20250608_WA0002 },
-  { name: 'IMG-20250608-WA0003', src: IMG_20250608_WA0003 },
-  { name: 'IMG-20250608-WA0004', src: IMG_20250608_WA0004 },
-  { name: 'IMG-20250608-WA0005', src: IMG_20250608_WA0005 },
-  { name: 'IMG-20250608-WA0006', src: IMG_20250608_WA0006 },
-  { name: 'IMG-20250608-WA0007', src: IMG_20250608_WA0007 },
-  { name: 'IMG-20250608-WA0008', src: IMG_20250608_WA0008 },
-  { name: 'IMG-20250608-WA0009', src: IMG_20250608_WA0009 },
-  { name: 'IMG-20250608-WA0010', src: IMG_20250608_WA0010 },
-  { name: 'IMG-20250608-WA0011', src: IMG_20250608_WA0011 },
-  { name: 'IMG-20250608-WA0012', src: IMG_20250608_WA0012 },
-  { name: 'IMG-20250608-WA0013', src: IMG_20250608_WA0013 },
-  { name: 'IMG-20250608-WA0014', src: IMG_20250608_WA0014 },
-  { name: 'IMG-20250608-WA0015', src: IMG_20250608_WA0015 },
-  { name: 'IMG-20250608-WA0016', src: IMG_20250608_WA0016 },
-  { name: 'IMG-20250608-WA0017', src: IMG_20250608_WA0017 },
+  { name: 'MK7 Megatran', src: MK7Megatran1 },
+  { name: 'MK7 Megatran', src: MK7Megatran2 },
+  { name: 'MK7 Megatran', src: MK7Megatran3 },
+  { name: 'MK7 Megatran', src: MK7Megatran4 },
+  { name: 'Mk5 Peacock', src: Mk5PeacockGreenFeatheredHeaddress1 },
+  { name: 'Mk5 Peacock', src: Mk5PeacockGreenFeatheredHeaddress2 },
+  { name: 'Mk5 Peacock', src: Mk5PeacockGreenFeatheredHeaddress3 },
+  { name: 'Mk5 Peacock', src: Mk5PeacockGreenFeatheredHeaddress4 },
+  { name: 'Mk5 Peacock', src: Mk5PeacockGreenFeatheredHeaddress5 },
+  { name: 'Mk5 Peacock', src: Mk5PeacockGreenFeatheredHeaddress6 },
+  { name: 'Mk6 Valkyrie', src: Mk6ValkyrieWhiteAndGold1 },
+  { name: 'Mk6 Valkyrie', src: Mk6ValkyrieWhiteAndGold2 },
+  { name: 'Mk6 Valkyrie', src: Mk6ValkyrieWhiteAndGold3 },
+  { name: 'Mk6 Valkyrie', src: Mk6ValkyrieWhiteAndGold4 },
+  { name: 'Mk6 Valkyrie', src: Mk6ValkyrieWhiteAndGold5 },
+  { name: 'Mk6 Valkyrie', src: Mk6ValkyrieWhiteAndGold6 },
+  { name: 'Mk6 Valkyrie', src: Mk6ValkyrieWhiteAndGold7 },
   { name: 'IMG-20250608-WA0027', src: IMG_20250608_WA0027 },
   { name: 'IMG-20250608-WA0028', src: IMG_20250608_WA0028 },
   { name: 'IMG-20250608-WA0029', src: IMG_20250608_WA0029 },

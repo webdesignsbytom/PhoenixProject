@@ -74,7 +74,7 @@ function GalleryPageMainContainer() {
                             className='absolute inset-0 w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-110 group-focus:scale-110'
                           />
                           <figcaption className='absolute bottom-0 w-full bg-black bg-opacity-50 text-colour1 text-sm py-1 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
-                            {caption}
+                            Click to Open
                           </figcaption>
                         </figure>
                       </li>
