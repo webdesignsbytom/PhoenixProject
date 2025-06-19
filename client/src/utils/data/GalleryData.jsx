@@ -46,7 +46,7 @@ import Mk6ValkyrieWhiteAndGold4 from '../../assets/images/headdress/phoenix-head
 import Mk6ValkyrieWhiteAndGold5 from '../../assets/images/headdress/phoenix-headdress-mk6-valkyrie-white-and-gold-5.jpg';
 import Mk6ValkyrieWhiteAndGold6 from '../../assets/images/headdress/phoenix-headdress-mk6-valkyrie-white-and-gold-6.jpg';
 import Mk6ValkyrieWhiteAndGold7 from '../../assets/images/headdress/phoenix-headdress-mk6-valkyrie-white-and-gold-7.jpg';
-// MK7
+// MK7 Megatran+
 import MK7MegatranMain from '../../assets/images/products/phoenix-headdress-product-no-background-pink-blue-3.png';
 import MK7Megatran1 from '../../assets/images/headdress/phoenix-headdress-mk7-megatran-pride-trans-flat-style-1.jpg';
 import MK7Megatran2 from '../../assets/images/headdress/phoenix-headdress-mk7-megatran-pride-trans-flat-style-2.jpg';
