@@ -12,6 +12,7 @@ import FooterSocialCTA from './FooterSocialCTA';
 import { FooterLinksArray } from '../../utils/data/FooterData';
 // Images
 import PhoenixLogo from '../../assets/images/logos/phoenix-headdress-logo.svg';
+import SocialMediaCTA from '../socialMedia/SocialMediaCTA';
 
 function FooterComponent() {
   return (
@@ -20,30 +21,28 @@ function FooterComponent() {
         {/* Logo section */}
         <section className='grid h-fit my-auto gap-4 py-2 w-full'>
           <div className='grid items-center justify-center'>
-            <div
-              className={`grid grid-flow-col gap-x-2 items-center`}
-            >
+            <div className={`grid gap-x-2 items-center`}>
               <figure
                 role='img'
                 aria-label='Phoenix Headdress Logo'
-                className='w-8 h-8'
+                className='w-8 h-8 mx-auto mb-2'
               >
-<img
-  src={PhoenixLogo}
-  alt="Phoenix Headdress Logo"
-  title="Phoenix Headdress Homepage"
-  className="w-8 h-8 object-contain"
-/>
+                <img
+                  src={PhoenixLogo}
+                  alt='Phoenix Headdress Logo'
+                  title='Phoenix Headdress Homepage'
+                  className='w-8 h-8 object-contain mx-auto'
+                />
               </figure>
               <span className='sr-only lg:not-sr-only' aria-hidden='false'>
                 {CompanyName}
               </span>
+              <span >
+                {CompanyName}
+              </span>
             </div>
           </div>
-          <div className='text-center'>
-            <p className='text-sm'>{CompanyTagLine}</p>
-          </div>
-          <FooterSocialCTA />
+          <SocialMediaCTA />
         </section>
 
         {/* Footer links */}
@@ -100,16 +99,6 @@ function FooterComponent() {
                 <span className='font-semibold'>Location: </span> UK
               </p>
             </div>
-            {/* Long address */}
-            {/* <div>
-              <span className='font-semibold'>Location:</span>
-              <ul className='list-none'>
-                <li>{AddressLine1}</li>
-                <li>{AddressLine2}</li>
-                <li>{LocationCity}</li>
-                <li>{PostalCode}</li>
-              </ul>
-            </div> */}
           </section>
         </section>
       </div>

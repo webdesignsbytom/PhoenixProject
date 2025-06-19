@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="company" content="desc" />
+  <title>company server || Server</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+    h1, h2 {
+      color: white;
+    }
+    body {
+      display: grid;
+      place-content: center;
+      background-color: black;
+      height: 100vh;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      overflow: auto; /* Allow scrolling if there are many forms */
+      padding: 2rem;
+    }
+    #contactForms {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .contact-card {
+      background-color: #222;
+      padding: 1rem;
+      border-radius: 8px;
+      color: white;
+      text-align: left;
+    }
+    .contact-card h3 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Company Server</h1>
+    <h2>Server Interface</h2>
+    <section id="contactForms">
+      <!-- Contact forms will be injected here -->
+    </section>
+  </main>
+
+  <script>
+    async function fetchContactForms() {
+      try {
+        const response = await fetch('/api/contact-forms'); // adjust this endpoint to match your server
+        const data = await response.json();
+
+        const contactFormsContainer = document.getElementById('contactForms');
+
+        if (!Array.isArray(data.contactForms)) {
+          contactFormsContainer.innerHTML = '<p>No contact forms found.</p>';
+          return;
+        }
+
+        data.contactForms.forEach(form => {
+          const card = document.createElement('div');
+          card.className = 'contact-card';
+          card.innerHTML = `
+            <h3>${form.name}</h3>
+            <p><strong>Email:</strong> ${form.email}</p>
+            <p><strong>Phone:</strong> ${form.contactNumber}</p>
+            <p><strong>Interests:</strong> ${form.interests}</p>
+            <p><strong>Hard Limits:</strong> ${form.hardLimits}</p>
+            <p><strong>Health Concerns:</strong> ${form.healthConcerns}</p>
+            <p><strong>Session:</strong> ${new Date(form.sessionDateTime).toLocaleString()}</p>
+            <p><strong>Session Length:</strong> ${form.sessionLength}</p>
+            <p><strong>Identity:</strong> ${form.identity}</p>
+            <p><strong>Experience Level:</strong> ${form.experienceLevel}</p>
+            <p><strong>Recent Reference:</strong> ${form.recentReference}</p>
+            <p><strong>How Found:</strong> ${form.howFoundMe}</p>
+          `;
+          contactFormsContainer.appendChild(card);
+        });
+      } catch (err) {
+        console.error('Failed to fetch contact forms:', err);
+      }
+    }
+
+    // Call the function on page load
+    fetchContactForms();
+  </script>
+</body>
+</html>

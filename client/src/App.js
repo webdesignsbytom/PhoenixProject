@@ -3,11 +3,9 @@ import { Route, Routes } from 'react-router-dom';
 // Components
 import LoadingScreen from './components/utils/LoadingScreen';
 // Utils
-import { AuthenticateAdmin } from './utils/user/AuthenticateUser';
 import LoginAuth from './utils/user/LoginAuth';
 // Constants
 import {
-  ADMIN_PAGE_URL,
   CONTACT_PAGE_URL,
   HOME_PAGE_URL,
   MAINTENANCE_PAGE_URL,
@@ -19,10 +17,11 @@ import {
 import { COOKIE_TIMER, CookiePolicyName } from './utils/Constants';
 // Pages
 // Public
+import GalleryPage from './pages/gallery/GalleryPage';
+import AboutPage from './pages/about/AboutPage';
 import HomePage from './pages/home/HomePage';
 import ContactPage from './pages/contact/ContactPage';
 // Admin
-import AdminPage from './pages/admin/AdminPage';
 import ContactFormAdminPage from './pages/contact/admin/ContactFormAdminPage';
 // Terms and conditions
 import TermAndPoliciesPage from './pages/policies/TermAndPoliciesPage';
@@ -30,8 +29,6 @@ import TermAndPoliciesPage from './pages/policies/TermAndPoliciesPage';
 import MaintenancePage from './pages/maintenance/MaintenancePage';
 // Error
 import Error404 from './pages/error/Error404';
-import GalleryPage from './pages/gallery/GalleryPage';
-import AboutPage from './pages/about/AboutPage';
 
 // Components
 const CookieConsentModal = lazy(() =>
@@ -103,15 +100,6 @@ function App() {
           {/* Other */}
           <Route path={MAINTENANCE_PAGE_URL} element={<MaintenancePage />} />
 
-          {/* Secured routes */}
-          <Route
-            path={ADMIN_PAGE_URL}
-            element={
-              <AuthenticateAdmin>
-                <AdminPage />
-              </AuthenticateAdmin>
-            }
-          />
 
           {/* Error routes */}
           <Route path='*' element={<Error404 />} />

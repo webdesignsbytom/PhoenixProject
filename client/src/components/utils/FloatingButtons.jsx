@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { FaChevronUp } from 'react-icons/fa';
 import { MdOutlineEmail } from "react-icons/md";
+import { CompanyEmailAddress } from '../../utils/Constants';
 
 function FloatingButtons() {
   const [visible, setVisible] = useState(false);
@@ -20,7 +21,7 @@ function FloatingButtons() {
   };
 
   const handleEmailClick = () => {
-    window.location.href = 'mailto:artist@example.com'; // replace with real email
+    window.location.href = `mailto:${CompanyEmailAddress}`; // replace with real email
   };
 
   return (

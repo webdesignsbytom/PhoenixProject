@@ -12,6 +12,7 @@ import { CompanyName } from '../../utils/Constants';
 import { getNavLinkItemsArray } from '../../utils/data/NavData';
 // Images
 import PhoenixLogo from '../../assets/images/logos/phoenix-headdress-logo.svg';
+import SocialMediaCTA from '../socialMedia/SocialMediaCTA';
 
 function Navbar() {
   const { user } = useUser();
@@ -71,6 +72,7 @@ function Navbar() {
             </NavLink>
           </section>
         </section>
+
         <section className='grid justify-end lg:justify-center'>
           {/* Mobile screen */}
           <button
@@ -102,17 +104,21 @@ function Navbar() {
         <button
           onClick={togglePhoneNav}
           aria-label='Close navigation menu'
-          className='absolute top-4 right-4 text-colour2 dark:text-colour1 text-4xl font-bold cursor-pointer active:scale-90 transition-transform duration-300 '
+          className='absolute top-4 right-4 grid items-center text-colour2 dark:text-colour1 text-4xl font-bold cursor-pointer active:scale-90 transition-transform duration-300 '
         >
           <IoCloseOutline />
         </button>
 
         {/* Menu */}
-        <ul className='grid gap-y-3 md:gap-y-4 items-center justify-center h-fit text-center text-colour2 dark:text-colour1 py-10'>
-          {navLinkItemsArray.map(({ path, label }) => (
-            <NavItem key={label} url={path} title={label} />
-          ))}
-        </ul>
+        <div className='-mt-12'>
+          <ul className='grid gap-y-3 md:gap-y-4 items-center justify-center h-fit text-center text-colour2 dark:text-colour1 py-10'>
+            {navLinkItemsArray.map(({ path, label }) => (
+              <NavItem key={label} url={path} title={label} />
+            ))}
+          </ul>
+
+          <SocialMediaCTA />
+        </div>
       </section>
     </nav>
   );

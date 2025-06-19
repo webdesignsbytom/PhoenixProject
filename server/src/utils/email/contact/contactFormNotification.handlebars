@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New Contact Form Received</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+    }
+    .container {
+      max-width: 600px;
+      margin: 30px auto;
+      padding: 30px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+    h1 {
+      color: #4CAF50;
+      text-align: center;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .info-block {
+      background-color: #fafafa;
+      border-left: 4px solid #4CAF50;
+      padding: 20px;
+      margin: 20px 0;
+    }
+    .info-block p {
+      margin: 8px 0;
+    }
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #999;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>New Contact Form Received</h1>
+
+    <p>You’ve received a new contact form submission. Details are below:</p>
+
+    <div class="info-block">
+      <p><strong>Name:</strong> {{name}}</p>
+      <p><strong>Email:</strong> {{email}}</p>
+      <p><strong>Contact Number:</strong> {{contactNumber}}</p>
+      <p><strong>Session Date & Time:</strong> {{sessionDateTime}}</p>
+      <p><strong>Session Length:</strong> {{sessionLength}}</p>
+      <p><strong>Experience Level:</strong> {{experienceLevel}}</p>
+      <p><strong>Identity:</strong> {{identity}}</p>
+      <p><strong>Interests:</strong> {{interests}}</p>
+      <p><strong>Hard Limits:</strong> {{hardLimits}}</p>
+      <p><strong>Health Concerns:</strong> {{healthConcerns}}</p>
+      <p><strong>Recent Reference:</strong> {{recentReference}}</p>
+    </div>
+
+    <p>Please follow up with this person as appropriate.</p>
+
+    <footer>
+      <p>&copy; {{year}} Your Business. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
