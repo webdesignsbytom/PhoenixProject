@@ -33,7 +33,7 @@ function CookieConsentModal({ setHasAgreedToCookies }) {
           <section className='grid grid-cols-2 gap-2 w-full h-fit'>
             <div>
               <button
-                className={`px-2 py-2.5 lg:px-8 w-full bg-error-red text-white font-medium text-lg leading-tight uppercase rounded shadow-md active:shadow-lg transition duration-150 ease-in-out`}
+                className={`px-2 py-2.5 lg:px-8 w-full text-colour2 outline outline-2 outline-colour2 bg-colour1 font-medium text-lg leading-tight uppercase rounded shadow-md active:shadow-lg transition duration-150 ease-in-out`}
                 onClick={handleDisagree}
                 aria-label='Disagree to cookie usage'
               >
@@ -42,7 +42,7 @@ function CookieConsentModal({ setHasAgreedToCookies }) {
             </div>
             <div>
               <button
-                className={`px-2 py-2.5 lg:px-8 w-full active:bg-red-500 bg-colour2 text-white font-medium text-lg leading-tight uppercase rounded shadow-md active:shadow-lg transition duration-150 ease-in-out`}
+                className={`px-2 py-2.5 lg:px-8 w-full active:bg-red-500 bg-colour2 text-colour1 font-medium text-lg leading-tight uppercase rounded shadow-md active:shadow-lg transition duration-150 ease-in-out`}
                 onClick={handleAgree}
                 aria-label='Agree to cookie usage'
               >
@@ -101,7 +101,7 @@ function CookieConsentModal({ setHasAgreedToCookies }) {
               <section className='grid grid-cols-2 gap-2 w-full h-fit'>
                 <div>
                   <button
-                    className={`px-2 py-2.5 w-full bg-error-red text-white font-medium text-lg leading-tight uppercase rounded shadow-md active:shadow-lg transition duration-150 ease-in-out`}
+                    className={`px-2 py-2.5 w-full bg-error-red text-colour2 outline outline-2 outline-colour2 font-medium text-lg leading-tight uppercase rounded shadow-md active:shadow-lg transition duration-150 ease-in-out`}
                     onClick={handleDisagree}
                     aria-label='Disagree to cookie usage'
                   >
@@ -110,7 +110,7 @@ function CookieConsentModal({ setHasAgreedToCookies }) {
                 </div>
                 <div>
                   <button
-                    className={`px-2 py-2.5 w-full bg-colour2 text-white font-medium text-lg leading-tight uppercase rounded shadow-md active:shadow-lg transition duration-150 ease-in-out`}
+                    className={`px-2 py-2.5 w-full bg-colour2 outline outline-2 outline-colour2 text-colour1 font-medium text-lg leading-tight uppercase rounded shadow-md active:shadow-lg transition duration-150 ease-in-out`}
                     onClick={handleAgree}
                     aria-label='Agree to cookie usage'
                   >
