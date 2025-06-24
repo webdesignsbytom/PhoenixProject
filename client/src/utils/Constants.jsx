@@ -34,7 +34,7 @@ export const DISPLAY_BUSINESS_URL = 'www.phoenixheaddress.com';
 
 // Social Media URLs
 export const FACEBOOK_URL = 'https://facebook.com/';
-export const INSTAGRAM_URL = 'https://www.instagram.com/phoenixvanhalen';
+export const INSTAGRAM_URL = 'https://www.instagram.com/phoenixheaddress?utm_source=qr';
 export const GOOGLE_URL = 'https://google.com/';
 export const GITHUB_URL = 'https://github.com/';
 export const APPLE_URL = 'https://apple.com/';
