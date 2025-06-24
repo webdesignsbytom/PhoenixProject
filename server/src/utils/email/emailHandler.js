@@ -252,7 +252,7 @@ export const sendContactEmail = async (
 
   try {
     const info = await contactTransporter.sendMail(mailOptions);
-    console.log(`✅ Contact Confirmation Email Sent: ${info.recipient}`);
+    console.log(`✅ Contact Confirmation Email Sent: ${recipient}`);
     return true;
   } catch (err) {
     console.error('❌ Error sending email:', err);
@@ -275,7 +275,7 @@ export const sendTestEmail = async (testEmail) => {
 
   try {
     const info = await transporter.sendMail(mailOptions);
-    console.log(`✅ Test email sent: ${info.messageId}`);
+    console.log(`✅ Test email sent: ${recipient}`);
   } catch (err) {
     console.error('❌ Error sending test email:', err);
   }

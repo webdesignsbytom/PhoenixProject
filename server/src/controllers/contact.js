@@ -48,45 +48,45 @@ export const getAllContactFormsHandler = async (req, res) => {
 
 export const createNewContactFormHandler = async (req, res) => {
   const {
-    name,
+    firstName,
+    lastName,
     email,
-    contactNumber,
-    hardLimits,
-    interests,
-    healthConcerns,
-    sessionDateTime,
-    sessionLength,
-    identity,
-    experienceLevel,
-    recentReference,
+    message,
+    phoneNumber,
+    location,
+    businessName,
+    projectType,
   } = req.body;
 
-  if (!email || !contactNumber) {
+  console.log('firstName', firstName, 'lastName', lastName);
+  console.log('email', email, 'phoneNumber', phoneNumber);
+  console.log('message', message);
+  console.log('location', location, 'businessName', businessName);
+
+  if (!email || !phoneNumber) {
     return sendDataResponse(res, 400, {
-      message: 'Missing email or contact number.',
+      message: 'Missing email or phone number.',
     });
   }
 
   try {
     const createdContactForm = await createNewContactForm(
-      name,
+      firstName,
+      lastName,
       email,
-      contactNumber,
-      hardLimits,
-      interests,
-      healthConcerns,
-      sessionDateTime,
-      sessionLength,
-      identity,
-      experienceLevel,
-      recentReference
+      message,
+      phoneNumber,
+      location,
+      businessName,
+      projectType
     );
+    console.log('found createdContactForm:', createdContactForm);
 
     if (!createdContactForm) {
       const badRequest = new BadRequestEvent(
         req.user,
         EVENT_MESSAGES.badRequest,
-        EVENT_MESSAGES.createContactFail
+        EVENT_MESSAGES.createContactFormFail
       );
       myEmitterErrors.emit('error', badRequest);
       return sendMessageResponse(res, badRequest.code, badRequest.message);
@@ -97,24 +97,23 @@ export const createNewContactFormHandler = async (req, res) => {
       'New Contact Form Recieved',
       'contactFormNotification',
       {
-        name,
+        title: 'New Contact Form Submission',
+        heading: 'You’ve received a new message from your website!',
+        firstName,
+        lastName,
         email,
-        contactNumber,
-        hardLimits,
-        interests,
-        healthConcerns,
-        sessionDateTime,
-        sessionLength,
-        identity,
-        experienceLevel,
-        recentReference,
+        phoneNumber,
+        location,
+        businessName,
+        projectType,
+        message,
       }
     );
 
     if (!notificationSent) {
       const notCreated = new BadRequestEvent(
         EVENT_MESSAGES.badRequest,
-        EVENT_MESSAGES.notificationSendingFail
+        EVENT_MESSAGES.contactNotificationSendingFail
       );
       myEmitterErrors.emit('error', notCreated);
       return sendMessageResponse(res, notCreated.code, notCreated.message);

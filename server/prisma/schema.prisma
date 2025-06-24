@@ -27,13 +27,13 @@ model User {
 
 model ContactForm {
   id           String    @id @default(uuid())
-  firstName    String
-  lastName     String
-  email        String
-  message      String
-  phoneNumber  String
-  location     String
-  businessName String
+  firstName    String    @default("")
+  lastName     String    @default("")
+  email        String    @default("")
+  message      String    @default("")
+  phoneNumber  String    @default("")
+  location     String    @default("")
+  businessName String?    @default("")
   createdAt    DateTime  @default(now())
   updatedAt    DateTime? @updatedAt
 }

@@ -13,31 +13,25 @@ export const findContactFormById = (formId) =>
   });
 
 export const createNewContactForm = (
-  name,
+  firstName,
+  lastName,
   email,
-  contactNumber,
-  hardLimits,
-  interests,
-  healthConcerns,
-  sessionDateTime,
-  sessionLength,
-  identity,
-  experienceLevel,
-  recentReference
+  message,
+  phoneNumber,
+  location,
+  businessName,
+  projectType
 ) =>
   dbClient.contactForm.create({
     data: {
-      name,
+      firstName,
+      lastName,
       email,
-      contactNumber,
-      hardLimits,
-      interests,
-      healthConcerns,
-      sessionDateTime,
-      sessionLength,
-      identity,
-      experienceLevel,
-      recentReference,
+      message,
+      phoneNumber,
+      location,
+      businessName,
+      projectType,
     },
   });
 

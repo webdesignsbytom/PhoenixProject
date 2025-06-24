@@ -19,13 +19,13 @@ CREATE TABLE "User" (
 -- CreateTable
 CREATE TABLE "ContactForm" (
     "id" TEXT NOT NULL,
-    "firstName" TEXT NOT NULL,
-    "lastName" TEXT NOT NULL,
-    "email" TEXT NOT NULL,
-    "message" TEXT NOT NULL,
-    "phoneNumber" TEXT NOT NULL,
-    "location" TEXT NOT NULL,
-    "businessName" TEXT NOT NULL,
+    "firstName" TEXT NOT NULL DEFAULT '',
+    "lastName" TEXT NOT NULL DEFAULT '',
+    "email" TEXT NOT NULL DEFAULT '',
+    "message" TEXT NOT NULL DEFAULT '',
+    "phoneNumber" TEXT NOT NULL DEFAULT '',
+    "location" TEXT NOT NULL DEFAULT '',
+    "businessName" TEXT DEFAULT '',
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3),
 
