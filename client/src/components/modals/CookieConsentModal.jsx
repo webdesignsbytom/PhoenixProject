@@ -12,10 +12,7 @@ import {
 import CookieSVG from '../../assets/images/icons/cookie-icon.svg';
 
 function CookieConsentModal({ setHasAgreedToCookies }) {
-
   const location = useLocation();
-  console.log('location: ' + location);
-  console.log('cookie');
 
   const handleAgree = () => {
     localStorage.setItem(CookiePolicyName, 'true');
