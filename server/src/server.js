@@ -21,13 +21,25 @@ const app = express();
 
 // Add middleware //
 app.disable('x-powered-by');
+const allowedOrigins = [
+  'https://phoenixheaddress.com',
+  'https://phoenixheaddress.co.uk'
+];
+
 app.use(
   cors({
-    origin: 'https://www.mschelle.me',
+    origin: function (origin, callback) {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error('Not allowed by CORS'));
+      }
+    },
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   })
 );
+
 
 app.use(morgan('dev'));
 app.use(express.json({ limit: '200kb' }));
