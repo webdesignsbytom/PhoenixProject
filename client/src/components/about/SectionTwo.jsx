@@ -25,8 +25,7 @@ function SectionTwo() {
               </h2>
               <p className='text-base md:text-lg font-thin'>
                 Every creation is the result of hours of
-                focus, passion, and joy — a place where imperfection is part of
-                the process and playfulness fuels perfection.
+                focus and passion — playful experimentation striving for perfection.
               </p>
               <p className='text-sm italic text-gray-500'>
                 This isn’t just work. It’s love in motion.

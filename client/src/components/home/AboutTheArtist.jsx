@@ -46,7 +46,7 @@ function AboutTheArtist() {
               </h3>
               <p className='text-xl font-thin'>
                 Behind every masterpiece lies intention, emotion, and vision.
-                This artist creates exquisite, hand-crafted headdresses that
+                The artist creates exquisite, hand-crafted headdresses that
                 blend natural elements with bold fantasy aesthetics. Each piece
                 is a sculptural triumph, embodying elegance, power, and the
                 essence of individuality.
