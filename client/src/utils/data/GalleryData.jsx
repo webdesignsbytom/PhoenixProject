@@ -26,7 +26,7 @@ import Mk3BeserkerOrangeFourHornsMain from '../../assets/images/products/phoenix
 import Mk3BeserkerOrangeFourHorns1 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-1.jpg';
 import Mk3BeserkerOrangeFourHorns2 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-2.jpg';
 import Mk3BeserkerOrangeFourHorns3 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-3.jpg';
-import Mk3BeserkerOrangeFourHorns5 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-5.jpg';
+import Mk3BeserkerOrangeFourHorns4 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-4.jpg';
 import Mk3BeserkerOrangeFourHorns6 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-6.jpg';
 import Mk3BeserkerOrangeFourHorns7 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-7.jpg';
 import Mk3BeserkerOrangeFourHorns8 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-8.jpg';
@@ -134,7 +134,7 @@ export const headdressGalleryGroupsArray = [
       { name: 'MK3 Beserker', src: Mk3BeserkerOrangeFourHorns1 },
       { name: 'MK3 Beserker', src: Mk3BeserkerOrangeFourHorns2 },
       { name: 'MK3 Beserker', src: Mk3BeserkerOrangeFourHorns3 },
-      { name: 'MK3 Beserker', src: Mk3BeserkerOrangeFourHorns5 },
+      { name: 'MK3 Beserker', src: Mk3BeserkerOrangeFourHorns4 },
       { name: 'MK3 Beserker', src: Mk3BeserkerOrangeFourHorns6 },
       { name: 'MK3 Beserker', src: Mk3BeserkerOrangeFourHorns7 },
       { name: 'MK3 Beserker', src: Mk3BeserkerOrangeFourHorns8 },
