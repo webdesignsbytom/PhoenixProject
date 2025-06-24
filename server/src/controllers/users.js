@@ -107,62 +107,6 @@ export const getUserByIdHandler = async (req, res) => {
   }
 };
 
-export const registerNewUserHandler = async (req, res) => {
-  const { email, password } = req.body;
-
-  const lowerCaseEmail = email.toLowerCase();
-
-  if (!lowerCaseEmail || !password) {
-    const missingField = new MissingFieldEvent(
-      null,
-      'Registration: Missing Field/s event.'
-    );
-    return sendMessageResponse(res, missingField.code, missingField.message);
-  }
-
-  try {
-    const foundUser = await findUserByEmail(lowerCaseEmail);
-    if (foundUser) {
-      return sendDataResponse(res, 400, { message: EVENT_MESSAGES.emailInUse });
-    }
-
-    const hashedPassword = await bcrypt.hash(password, 10);
-
-    const createdUser = await createNewUser(lowerCaseEmail, hashedPassword);
-
-    if (!createdUser) {
-      const notCreated = new BadRequestEvent(
-        EVENT_MESSAGES.badRequest,
-        EVENT_MESSAGES.createUserFail
-      );
-      myEmitterErrors.emit('error', notCreated);
-      return sendMessageResponse(res, notCreated.code, notCreated.message);
-    }
-
-    const userId = createdUser.id;
-
-    delete createdUser.password;
-    delete createdUser.updatedAt;
-
-    const uniqueString = uuid() + userId;
-    const hashedString = await bcrypt.hash(uniqueString, 10);
-
-    await createVerificationEmailHandler(userId, hashedString);
-    await sendVerificationEmail(userId, createdUser.email, uniqueString);
-
-    myEmitterUsers.emit('register', createdUser);
-    return sendDataResponse(res, 201, { user: createdUser });
-  } catch (err) {
-    // Error
-    const serverError = new RegistrationServerErrorEvent(
-      `Register Server error ${err.message}`
-    );
-    myEmitterErrors.emit('error', serverError);
-    sendMessageResponse(res, serverError.code, serverError.message);
-    throw err;
-  }
-};
-
 export const verifyUserEmailHandler = async (req, res) => {
   const { userId, uniqueString } = req.params;
 
