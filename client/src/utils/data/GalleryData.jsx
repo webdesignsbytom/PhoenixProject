@@ -19,8 +19,6 @@ import Mk2FirebirdFeatheredHeaddress4 from '../../assets/images/headdress/phoeni
 import Mk2FirebirdFeatheredHeaddress5 from '../../assets/images/headdress/phoenix-headdress-mk2-firebird-feathered-headdress-5.jpg';
 import Mk2FirebirdFeatheredHeaddress6 from '../../assets/images/headdress/phoenix-headdress-mk2-firebird-feathered-headdress-6.jpg';
 import Mk2FirebirdFeatheredHeaddress7 from '../../assets/images/headdress/phoenix-headdress-mk2-firebird-feathered-headdress-7.jpg';
-import Mk2FirebirdFeatheredHeaddress8 from '../../assets/images/headdress/phoenix-headdress-mk2-firebird-feathered-headdress-8.jpg';
-import Mk2FirebirdFeatheredHeaddress9 from '../../assets/images/headdress/phoenix-headdress-mk2-firebird-feathered-headdress-9.jpg';
 // MK3 Beserker
 import Mk3BeserkerOrangeFourHornsMain from '../../assets/images/products/phoenix-headdress-mk3-beserker-orange-four-horns-main.png';
 import Mk3BeserkerOrangeFourHorns1 from '../../assets/images/headdress/phoenix-headdress-mk3-beserker-orange-four-horns-1.jpg';
@@ -121,8 +119,6 @@ export const headdressGalleryGroupsArray = [
       { name: 'MK2 Firebird', src: Mk2FirebirdFeatheredHeaddress5 },
       { name: 'MK2 Firebird', src: Mk2FirebirdFeatheredHeaddress6 },
       { name: 'MK2 Firebird', src: Mk2FirebirdFeatheredHeaddress7 },
-      { name: 'MK2 Firebird', src: Mk2FirebirdFeatheredHeaddress8 },
-      { name: 'MK2 Firebird', src: Mk2FirebirdFeatheredHeaddress9 },
     ],
   },
   {
