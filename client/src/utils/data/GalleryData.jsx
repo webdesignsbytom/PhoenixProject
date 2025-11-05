@@ -53,6 +53,14 @@ import MK7Megatran1 from '../../assets/images/headdress/phoenix-headdress-mk7-me
 import MK7Megatran2 from '../../assets/images/headdress/phoenix-headdress-mk7-megatran-pride-trans-flat-style-2.jpg';
 import MK7Megatran3 from '../../assets/images/headdress/phoenix-headdress-mk7-megatran-pride-trans-flat-style-3.jpg';
 import MK7Megatran4 from '../../assets/images/headdress/phoenix-headdress-mk7-megatran-pride-trans-flat-style-4.jpg';
+// MK9 Beetlejuice
+import Mk8Beetlejuice1 from '../../assets/images/headdress/phoenix-headdress-mk8-beetlejuice-green-neon-headdress_fve.webp'
+import Mk8Beetlejuice2 from '../../assets/images/headdress/phoenix-headdress-mk8-beetlejuice-green-neon-headdress_ohd.webp'
+import Mk8Beetlejuice3 from '../../assets/images/headdress/phoenix-headdress-mk8-beetlejuice-green-neon-headdress_oni.webp'
+import Mk8Beetlejuice4 from '../../assets/images/headdress/phoenix-headdress-mk8-beetlejuice-green-neon-headdress_eco.webp'
+import Mk8Beetlejuice5 from '../../assets/images/headdress/phoenix-headdress-mk8-beetlejuice-green-neon-headdress_mdu.webp'
+import Mk8Beetlejuice6 from '../../assets/images/headdress/phoenix-headdress-mk8-beetlejuice-green-neon-headdress_ukv.webp'
+import Mk8Beetlejuice7 from '../../assets/images/headdress/phoenix-headdress-mk8-beetlejuice-green-neon-headdress_vxi.webp'
 
 export const headdressGalleryGroupsArray = [
   {
@@ -177,6 +185,20 @@ export const headdressGalleryGroupsArray = [
       { name: 'MK7 Megatran', src: MK7Megatran2 },
       { name: 'MK7 Megatran', src: MK7Megatran3 },
       { name: 'MK7 Megatran', src: MK7Megatran4 },
+    ],
+  },
+  {
+    title: 'MK8: Beetlejuice',
+    description:
+      'A emerald shining bright! A green and neon style of earthly colours and love. Called the Beetlejuice and designed for a halloween event.',
+    images: [
+      { name: 'MK8 Beetlejuice', src: Mk8Beetlejuice1 },
+      { name: 'MK8 Beetlejuice', src: Mk8Beetlejuice2 },
+      { name: 'MK8 Beetlejuice', src: Mk8Beetlejuice3 },
+      { name: 'MK8 Beetlejuice', src: Mk8Beetlejuice4 },
+      { name: 'MK8 Beetlejuice', src: Mk8Beetlejuice5 },
+      { name: 'MK8 Beetlejuice', src: Mk8Beetlejuice6 },
+      { name: 'MK8 Beetlejuice', src: Mk8Beetlejuice7 },
     ],
   },
 ];

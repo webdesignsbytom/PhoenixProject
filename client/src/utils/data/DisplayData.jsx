@@ -30,6 +30,10 @@ import Mk1DiabloHornStyleRedAndBlack1 from '../../assets/images/headdress/phoeni
 import Mk1DiabloHornStyleRedAndBlack2 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-2.jpg';
 import Mk1DiabloHornStyleRedAndBlack3 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-3.jpg';
 import Mk1DiabloHornStyleRedAndBlack5 from '../../assets/images/headdress/phoenix-headdress-mk1-diablo-horn-style-red-and-black-5.jpg';
+import Mk8Beetlejuice1 from '../../assets/images/headdress/phoenix-headdress-mk8-beetlejuice-green-neon-headdress_fve.webp'
+import Mk8Beetlejuice2 from '../../assets/images/headdress/phoenix-headdress-mk8-beetlejuice-green-neon-headdress_ohd.webp'
+import Mk8Beetlejuice3 from '../../assets/images/headdress/phoenix-headdress-mk8-beetlejuice-green-neon-headdress_oni.webp'
+import Mk8Beetlejuice4 from '../../assets/images/headdress/phoenix-headdress-mk8-beetlejuice-green-neon-headdress_eco.webp'
 
 export const headdressImagesArray = [
   { name: 'MK7 Megatran', src: MK7Megatran1 },
@@ -64,4 +68,8 @@ export const headdressImagesArray = [
   { name: 'MK1 Diablo', src: IMG_20250608_WA0062 },
   { name: 'MK1 Diablo', src: IMG_20250608_WA0061 },
   { name: 'MK1 Diablo', src: IMG_20250608_WA0060 },
+  { name: 'MK8 Beetlejuice', src: Mk8Beetlejuice1 },
+  { name: 'MK8 Beetlejuice', src: Mk8Beetlejuice2 },
+  { name: 'MK8 Beetlejuice', src: Mk8Beetlejuice3 },
+  { name: 'MK8 Beetlejuice', src: Mk8Beetlejuice4 },
 ];
