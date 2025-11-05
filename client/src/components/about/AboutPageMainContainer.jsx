@@ -5,7 +5,7 @@ import { CONTACT_PAGE_URL, GALLERY_PAGE_URL } from '../../utils/Routes';
 import SectionOne from './SectionOne';
 import SectionTwo from './SectionTwo';
 // Images
-import ArtistImagePhone from '../../assets/images/people/phoenix-headdress-blue-and-futuristic-main.jpg';
+import ArtistImagePhone from '../../assets/images/people/phoenix-headdress-blue-and-futuristic-main.webp';
 
 function AboutPageMainContainer() {
   return (

@@ -34,7 +34,7 @@ function FooterComponent() {
                   className='w-8 h-8 object-contain mx-auto'
                 />
               </figure>
-              <span className='sr-only lg:not-sr-only' aria-hidden='false'>
+              <span className='sr-only ' aria-hidden='false'>
                 {CompanyName}
               </span>
               <span >

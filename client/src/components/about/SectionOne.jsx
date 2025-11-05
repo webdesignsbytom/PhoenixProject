@@ -1,7 +1,7 @@
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
 // Images
-import ArtistMainImage from '../../assets/images/people/phoenix-headdress-horned-spikey-headdress.jpg';
+import ArtistMainImage from '../../assets/images/people/phoenix-headdress-horned-spikey-headdress.webp';
 
 function SectionOne() {
   const { ref, inView } = useInView({

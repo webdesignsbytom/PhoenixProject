@@ -1,7 +1,7 @@
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
 // Images
-import ArtistMainImage from '../../assets/images/people/phoenix-headdress-profile-photo.jpg';
+import ArtistMainImage from '../../assets/images/people/phoenix-headdress-profile-photo.webp';
 // Icons
 import { ABOUT_PAGE_URL, CONTACT_PAGE_URL } from '../../utils/Routes';
 
