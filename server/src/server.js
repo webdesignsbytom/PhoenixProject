@@ -22,6 +22,7 @@ const app = express();
 // Add middleware //
 app.disable('x-powered-by');
 const allowedOrigins = [
+  'http://localhost:3000',
   'https://phoenixheaddress.com',
   'https://phoenixheaddress.co.uk'
 ];
